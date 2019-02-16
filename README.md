@@ -1,1 +1,2 @@
-# tranquil-beach
+# Initial page
+
