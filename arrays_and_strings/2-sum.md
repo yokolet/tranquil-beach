@@ -23,9 +23,11 @@ indices.
 - Time: O(n)
 - Space: O(n)
 
+#### Solution
+
 {% code-tabs %}
 
-{% code-tabs-item title=undefined %}
+{% code-tabs-item title=Python %}
 ```python
 def twoSum(nums, target):
     """
