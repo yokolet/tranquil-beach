@@ -28,7 +28,7 @@ The second step is to make two groupes by positive or negative.
 The combination of three values should sum up to zero, so two values
 are taken one from positive group and another from negative group.
 
-Let those values to be `a > 0`, `b <= 0`. The third value is:
+Let those values to be `a <= 0`, `b > 0`. The third value is:
 
 ```
 a + b + c = 0
