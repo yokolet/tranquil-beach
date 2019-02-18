@@ -57,7 +57,7 @@ When given values are divided in two groups evenly, the performace is the worst.
 
 {% code-tabs %}
 
-{% code-tabs-item title=undefined %}
+{% code-tabs-item title=Python %}
 ```python
 def threeSum(nums):
     """
@@ -95,5 +95,41 @@ def threeSum(nums):
     return result
 ```
 
+{% endcode-tabs-item %}
+
+{% code-tabs-item title=Ruby %}
+```ruby
+# @param {Integer[]} nums
+# @return {Integer[][]}
+def three_sum(nums)
+    memo = Hash.new(0)
+    nums.each { |v| memo[v] += 1 }
+    pos = []
+    neg = []
+    memo.keys.each { |key| key > 0 ? pos << key : neg << key}
+    pos.sort
+    neg.sort
+    result = []
+    if memo.has_key?(0) && memo[0] >= 3
+        result << [0, 0, 0]
+    end
+    neg.each do |a|
+        pos.each do |b|
+        c = -(a + b)
+        if !memo.has_key?(c)
+            next
+        end
+        if c > b
+            result << [a, b, c]
+        elsif c < a
+            result << [c, a, b]
+        elsif [a, b].include?(c) && memo[c] > 1
+            result << [a, c, b]
+        end
+        end
+    end
+    result
+end
+```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
