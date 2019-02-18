@@ -4,7 +4,7 @@
 
 ## Algorithms
 
-* [Arrays and Strings](arrays_and_strings/README.md)
+* Arrays and Strings
     * [2 Sum](arrays_and_strings/2-sum.md)
     * [3 Sum](arrays_and_strings/3-sum.md)
 * Linked List
