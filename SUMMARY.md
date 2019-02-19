@@ -9,3 +9,4 @@
     * [3 Sum](arrays_and_strings/3-sum.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
+    * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
