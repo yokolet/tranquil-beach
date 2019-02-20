@@ -25,14 +25,14 @@ This is a combination problem. The logic is not complicated.
 Taking a letter one by one, it creates all letter combinations.
 DFS may be a good approach.
 
-The solution here is a loop of one liner.
-Especially, Python solution is succinct.
-Ruby uses a combination of reduce and map, but still a one liner and equivalent to Python.
+Instead of using DFS, the solution here is a loop of array manipulation. Not all languages have this sort of feature.
+Python solution is a succinct one liner.
+Ruby uses a combination of reduce and map, but is still a one liner and equivalent to Python.
 
 #### Complexity
 
 - Time O(k^n) : k is 3 or 4, n is a length of given digits
-- Space O(k^n) : result array ends up growing up to k^n
+- Space O(k^n) : result array ends up growing to k^n
 
 #### Solution
 
