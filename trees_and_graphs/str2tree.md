@@ -38,7 +38,7 @@ previous one.
 To avoid this, this solution returns the index along side of root node.
 
 
-#### COmplexity
+#### Complexity
 
 - Time O(n)
 - Space O(h) : h is a height of the tree
