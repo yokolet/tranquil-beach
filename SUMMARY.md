@@ -10,3 +10,5 @@
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
+* Trees and Graphs
+    * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
