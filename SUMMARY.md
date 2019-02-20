@@ -13,3 +13,5 @@
 * Trees and Graphs
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
+* Backtracking
+    * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
