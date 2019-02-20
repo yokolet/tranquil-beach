@@ -23,11 +23,19 @@ Output: `["1->2->5", "1->3"]`
 
 #### How to Solve
 
+This is a pre-order traversal problem.
+The traversal itself is not specific.
+How to keep the values consistent should be considered carefully.
+The traversal is done by a recursive call.
+When it comes back from the call,
+values of method arguments goes back to ones in previous stack.
+In this solution, an array is used to hold all the paths to leaf nodes. The value of path should be back to previous one,
+it is always passed as the method argument.
 
 #### Complexity
 
 - Time O(n)
-- Space O(h) : h is a height of the tree
+- Space O(h*l) : h is a height of the tree, l is a number of leaf nodes
 
 #### Solution
 
