@@ -114,7 +114,7 @@ end
 # @return {TreeNode}
 def str2tree(s)
     return nil if s.nil? || s.empty?
-    root, _ = self.walk(s, 0, s.size)
+    root, _ = walk(s, 0, s.size)
     root
 end
 
