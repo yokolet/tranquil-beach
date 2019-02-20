@@ -9,7 +9,7 @@ The whole input represents a binary tree. It contains an integer followed by zer
 
 If the left child node of parent exists, start from constructing the left child.
 
-#### Example
+#### Example1
 
 Input: `"4(2(3)(1))(6(5))"`
 
@@ -21,6 +21,20 @@ Output: a root node of a tree described blow:
     2     6
    / \   / 
   3   1 5   
+```
+
+#### Example2
+
+Input: `"1(2()(5))(3)"`
+
+Output: a root node of a tree described blow:
+
+```
+       1
+     /   \
+    2     3
+     \
+      5
 ```
 
 #### How to Solve
