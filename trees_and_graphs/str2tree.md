@@ -68,6 +68,7 @@ class Str2Tree:
                         root.left, index = walk(s, index, size)
                     else:
                         root.right, index = walk(s, index, size)
+                        if root.left.val == None: root.left = None
                 elif s[index] == ')':
                     index += 1
                     return root, index
@@ -113,6 +114,7 @@ def self.walk(s, index, size)
             root.left, index = walk(s, index, size)
         else
             root.right, index = walk(s, index, size)
+            root.left = nil if root.left.val.nil?
         end
         elsif s[index] == ")"
         index += 1
