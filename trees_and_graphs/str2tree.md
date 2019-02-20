@@ -112,13 +112,13 @@ end
 
 # @param {String} s
 # @return {TreeNode}
-def self.str2tree(s)
+def str2tree(s)
     return nil if s.nil? || s.empty?
     root, _ = self.walk(s, 0, s.size)
     root
 end
 
-def self.walk(s, index, size)
+def walk(s, index, size)
     root = TreeNode.new(nil)
     start = index
     while index < size
