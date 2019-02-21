@@ -37,11 +37,6 @@ If the lists intersect, two pointers come to the same node.
 If the lists don't intersect, two pointers come to None.
 Either the intersection exists or not, one of the pointer's value is the answer.
 
-#### Complexity
-
-- Time: O(n)
-- Space: O(1)
-
 #### Solution
 
 {% code-tabs %}
@@ -92,3 +87,7 @@ class Intersection:
 {% endcode-tabs-item %}
 
 {% endcode-tabs %}
+
+#### Complexity
+- Time: O(n)
+- Space: O(1)

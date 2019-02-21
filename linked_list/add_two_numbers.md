@@ -33,12 +33,6 @@ Instead, the value of the first linked list will be replaced by the remainder.
 When the first linked list is shorter than the second, the pointer
 goes to the second linked list. In this case, the shape looks like two linked lists are merged at some node.
 
-
-#### Complexity
-
-- Time: O(n) -- n is the length of longer linked list
-- Space: O(1)
-
 #### Solution
 
 {% code-tabs %}
@@ -118,3 +112,7 @@ end
 {% endcode-tabs-item %}
 
 {% endcode-tabs %}
+
+#### Complexity
+- Time: O(n) -- n is the length of longer linked list
+- Space: O(1)

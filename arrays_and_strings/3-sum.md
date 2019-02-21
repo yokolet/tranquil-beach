@@ -48,11 +48,6 @@ As an additional note, be careful, Python's collections.Counter runs slow. Simpl
 The time complexity of this solution is O(n^2). Selecting values from positive and negative groups gives the worst performance.
 When given values are divided in two groups evenly, the performace is the worst.
 
-#### Complexity
-
-- Time: O(n^2)
-- Space: O(n)
-
 #### Solution
 
 {% code-tabs %}
@@ -133,3 +128,7 @@ end
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+#### Complexity
+- Time: O(n^2)
+- Space: O(n)

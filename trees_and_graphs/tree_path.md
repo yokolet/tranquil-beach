@@ -32,11 +32,6 @@ values of method arguments goes back to ones in previous stack.
 In this solution, an array is used to hold all the paths to leaf nodes. The value of path should be back to previous one,
 it is always passed as the method argument.
 
-#### Complexity
-
-- Time O(n)
-- Space O(h*l) : h is a height of the tree, l is a number of leaf nodes
-
 #### Solution
 
 {% code-tabs %}
@@ -100,3 +95,7 @@ end
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+#### Complexity
+- Time O(n)
+- Space O(h*l) : h is a height of the tree, l is a number of leaf nodes

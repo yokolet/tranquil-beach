@@ -18,11 +18,6 @@ A key is `target - v`, and a value is index.
 If the value in the given array is the key, return the
 indices.
 
-#### Complexity
-
-- Time: O(n)
-- Space: O(n)
-
 #### Solution
 
 {% code-tabs %}
@@ -86,3 +81,7 @@ public class Solution {
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+#### Complexity
+- Time: O(n)
+- Space: O(n)

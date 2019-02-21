@@ -51,12 +51,6 @@ This solution uses recursive call, so when the call comes back to previous stack
 previous one.
 To avoid this, this solution returns the index along side of root node.
 
-
-#### Complexity
-
-- Time O(n)
-- Space O(h) : h is a height of the tree
-
 #### Solution
 
 {% code-tabs %}
@@ -147,3 +141,7 @@ end
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+#### Complexity
+- Time O(n)
+- Space O(h) : h is a height of the tree
