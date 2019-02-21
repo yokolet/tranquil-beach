@@ -8,10 +8,12 @@ The kth largest element is the kth in the sorted order, not the kth distinct ele
 
 #### Example 1
 Input: `[3,2,1,5,6,4]`, `k = 2`
+
 Output: 5
 
 #### Example 2
 Input: `[3,2,3,1,2,4,5,5,6]`, `k = 4`
+
 Output: 4
 
 #### How to Solve
@@ -68,4 +70,4 @@ end
 
 #### Complexity
 - Time: O(nlog(n))
-- Space: k (Python), n (Ruby)
+- Space: O(k) (Python), O(n) (Ruby)
