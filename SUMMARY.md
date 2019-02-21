@@ -18,3 +18,4 @@
     * [Combination Sum](backtracking/combination_sum.md)
 * Sorting and Searching
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
+    * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
