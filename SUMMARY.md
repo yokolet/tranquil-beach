@@ -15,3 +15,4 @@
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
+    * [Combination Sum](backtracking/combination_sum.md)
