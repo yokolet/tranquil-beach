@@ -18,15 +18,15 @@ Output: 4
 
 #### How to Solve
 
-One liner, `sorted(nums)[-k]` (Python), is the simplest solution. It workd resonably fast.
+One liner, `sorted(nums)[-k]` (Python), is the simplest solution. It works resonably fast.
 However, depends on the values in the given array, more efficient solution exists.
 
 The Python solution here uses min heap data structure.
 Only k elements are always in the min heap.
-Starting from first k elements, iterate rest of elements in the array. Only if the element is bigger than the smallest in the heap, values are replaced. The element is inserted, and the smallest is deleted. This way, the heap holds k largest numbers at the index.
+Push first k elements in heap and sort, then iterate rest of elements in the array. Only if the element is bigger than the smallest in the heap, pop the smallest and push the bigger one. This way, the heap holds k largest numbers at the index.
 When the rest of the array is iterated over, the answer is the smallest in the heap.
 
-The complexity is still O(nlog(n)), however, actual performance is expected better. Since some elements will be skipped and never be a part of heapify, it is something like O((n-m)log(n-m)), where m is a number of smaller elements than the smallest in the head at index i. In the exampl 1, 1 and 4 are skipped.
+The complexity is still O(nlog(n)), however, actual performance is expected better. Since some elements will be skipped and never be a part of heapify, it is something like O((n-m)log(n-m)), where m is a number of smaller elements than the smallest in the heap at index i. In the example 1, 1 and 4 are skipped.
 
 Ruby doesn't have heap nor priority queue in the standard library, the solution is a one liner.
 
