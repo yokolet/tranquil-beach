@@ -97,5 +97,5 @@ end
 {% endcode-tabs %}
 
 #### Complexity
-- Time O(n)
-- Space O(h*l) : h is a height of the tree, l is a number of leaf nodes
+- Time: O(n)
+- Space: O(h*l) -- h is a height of the tree, l is a number of leaf nodes

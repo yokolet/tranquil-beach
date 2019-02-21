@@ -143,5 +143,5 @@ end
 {% endcode-tabs %}
 
 #### Complexity
-- Time O(n)
-- Space O(h) : h is a height of the tree
+- Time: O(n)
+- Space: O(h) -- h is a height of the tree

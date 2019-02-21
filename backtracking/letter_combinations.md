@@ -93,5 +93,5 @@ class LetterCombinations:
 {% endcode-tabs %}
 
 #### Complexity
-- Time O(k^n) : k is 3 or 4, n is a length of given digits
-- Space O(k^n) : result array ends up growing to k^n
+- Time: O(k^n) -- k is 3 or 4, n is a length of given digits
+- Space: O(k^n) -- result array ends up growing to k^n
