@@ -34,6 +34,7 @@ it is always passed as the method argument.
 
 #### Solution
 - Python
+
 ```python
 class TreeNode:
     def __init__(self, x):
@@ -60,7 +61,9 @@ class TreePath:
         walk(root, '', result)
         return result
 ```
+
 - Ruby
+
 ```ruby
 class TreeNode
     attr_accessor :val, :left, :right
@@ -70,7 +73,6 @@ class TreeNode
         @left, @right = nil, nil
     end
 end
-
 
 # @param {String} s
 # @return {TreeNode}

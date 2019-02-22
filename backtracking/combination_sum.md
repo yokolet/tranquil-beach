@@ -42,6 +42,7 @@ When decreased target value becomes 0, the path is one of the result combination
 
 #### Solution
 - Python
+
 ```python
 class CombinationSum:
     def combinationSum(self, candidates, target):
@@ -61,7 +62,9 @@ class CombinationSum:
         dfs(sorted(candidates), target, 0, [], result)
         return result
 ```
+
 - Ruby
+
 ```ruby
 # @param {Integer[]} candidates
 # @param {Integer} target

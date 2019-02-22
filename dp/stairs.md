@@ -43,6 +43,7 @@ So, the sum of `memo[i - 1]` and `memo[i - 2]` will be the value of `memo[i]`. I
 
 #### Solution
 - Python
+
 ```python
 class Stairs:
     def climbStairsRecur(self, n):
@@ -72,7 +73,9 @@ class Stairs:
                 j += 1
         return memo[n]
 ```
+
 - Ruby
+
 ```ruby
 # @param {Integer} n
 # @return {Integer}

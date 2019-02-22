@@ -21,6 +21,7 @@ indices.
 #### Solution
 
 - Python
+
 ```python
 def twoSum(nums, target):
     """
@@ -35,7 +36,9 @@ def twoSum(nums, target):
         else:
             d[target-v] = i
 ```
+
 - Ruby
+
 ```ruby
 # @param {Integer[]} nums
 # @param {Integer} target

@@ -32,6 +32,7 @@ Ruby doesn't have heap nor priority queue in the standard library, the solution 
 
 #### Solution
 - Python
+
 ```python
 import heapq
 
@@ -49,7 +50,9 @@ class KthLargest:
                 heapq.heapreplace(queue, v)
         return queue[0]
 ```
+
 - Ruby
+
 ```ruby
 # @param {Integer[]} nums
 # @param {Integer} k
@@ -57,7 +60,6 @@ class KthLargest:
 def find_kth_largest(nums, k)
   nums.sort[-k]
 end
-
 ```
 
 #### Complexity

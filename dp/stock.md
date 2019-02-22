@@ -31,6 +31,7 @@ As for Python code, the loop `for i in range(len(prices))` runs faster than `for
 
 #### Solution
 - Python
+
 ```python
 class Stock:
     def maxProfit(self, prices):
@@ -47,7 +48,9 @@ class Stock:
                 profit = prices[i] - min_price
         return profit
 ```
+
 - Ruby
+
 ```ruby
 # @param {Integer[]} prices
 # @return {Integer}

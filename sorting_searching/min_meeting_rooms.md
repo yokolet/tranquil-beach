@@ -32,6 +32,7 @@ In the end, the result value becomes the minimum rooms needed.
 
 #### Solution
 - Python
+
 ```python
 # Definition for an interval.
 class Interval:
@@ -60,7 +61,9 @@ class MinRooms:
                 j +=1
         return result
 ```
+
 - Ruby
+
 ```ruby
 # Definition for an interval.
 class Interval
@@ -70,7 +73,6 @@ class Interval
     @end = e
   end
 end
-
 
 # @param {Interval[]} intervals
 # @return {Integer}
