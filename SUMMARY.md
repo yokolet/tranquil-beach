@@ -22,3 +22,5 @@
 * Dynamic Programming
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
+* Other
+    * [Arranging Coins](other/arranging_coins.md)
