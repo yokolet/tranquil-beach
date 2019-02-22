@@ -23,6 +23,8 @@ Output: 0
 Keep track the minimum price.
 If the price at index i is lower than the current minimum, update the minimum price. At each index, compare (current price - minimum price) and profit so far. Update if the value is greater than the profit so far.
 
+As for Python code, the loop `for i in range(len(prices))` runs faster than `for p in prices`. For this sort of coding, the index access is better than the enumeration.
+
 #### Solution
 {% code-tabs %}
 
