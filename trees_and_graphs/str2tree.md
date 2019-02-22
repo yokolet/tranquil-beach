@@ -53,9 +53,6 @@ To avoid this, this solution returns the index along side of root node.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 class TreeNode:
     def __init__(self, x):
@@ -90,9 +87,7 @@ class Str2Tree:
         root, _ = walk(s, 0, len(s))
         return root        
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=Ruby %}
 ```ruby
 class TreeNode
     attr_accessor :val, :left, :right
@@ -139,8 +134,6 @@ def walk(s, index, size)
     return root, index
 end
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n)

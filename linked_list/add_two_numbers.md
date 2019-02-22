@@ -35,9 +35,6 @@ goes to the second linked list. In this case, the shape looks like two linked li
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title="Python" %}
 ```python
 class ListNode:
     def __init__(self, x):
@@ -70,9 +67,7 @@ class TwoNumbers:
                 cur = cur.next
         return head
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 class ListNode
   attr_accessor :val, :next
@@ -109,9 +104,6 @@ def add_two_numbers(l1, l2)
   head
 end
 ```
-{% endcode-tabs-item %}
-
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n) -- n is the length of longer linked list

@@ -1,0 +1,19 @@
+{
+  "name": "tranquil-beach",
+  "version": "1.0.0",
+  "description": "--- description: This is a collection of problem solvings. ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokolet/tranquil-beach.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yokolet/tranquil-beach/issues"
+  },
+  "homepage": "https://github.com/yokolet/tranquil-beach#readme"
+}

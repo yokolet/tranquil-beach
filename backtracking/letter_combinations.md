@@ -31,9 +31,6 @@ Ruby uses a combination of reduce and map, but is still a one liner and equivale
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 class LetterCombinations:
      def letterCombinations(self, digits):
@@ -62,9 +59,7 @@ class LetterCombinations:
             idx += 1
         return result
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=Ruby %}
 ```ruby
   # @param {String} digits
   # @return {String[]}
@@ -89,8 +84,6 @@ class LetterCombinations:
     result
   end
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(k^n) -- k is 3 or 4, n is a length of given digits

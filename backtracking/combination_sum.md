@@ -42,9 +42,6 @@ When decreased target value becomes 0, the path is one of the result combination
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 class CombinationSum:
     def combinationSum(self, candidates, target):
@@ -64,9 +61,7 @@ class CombinationSum:
         dfs(sorted(candidates), target, 0, [], result)
         return result
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 # @param {Integer[]} candidates
 # @param {Integer} target
@@ -87,9 +82,6 @@ def dfs(arr, target, index, path, result)
   end
 end
 ```
-{% endcode-tabs-item %}
-
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(b^m) -- b is a branching factor, m is a max depth

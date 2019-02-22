@@ -39,9 +39,6 @@ Either the intersection exists or not, one of the pointer's value is the answer.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title="Python" %}
 ```python
 class ListNode:
     def __init__(self, x):
@@ -78,15 +75,10 @@ class Intersection:
             curB = curB.next
         return curA
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 
 ```
-{% endcode-tabs-item %}
-
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n)

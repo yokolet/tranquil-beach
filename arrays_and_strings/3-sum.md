@@ -50,9 +50,6 @@ When given values are divided in two groups evenly, the performace is the worst.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 def threeSum(nums):
     """
@@ -90,9 +87,6 @@ def threeSum(nums):
     return result
 ```
 
-{% endcode-tabs-item %}
-
-{% code-tabs-item title=Ruby %}
 ```ruby
 # @param {Integer[]} nums
 # @return {Integer[][]}
@@ -126,8 +120,6 @@ def three_sum(nums)
     result
 end
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n^2)

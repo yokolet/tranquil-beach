@@ -32,9 +32,6 @@ In the end, the result value becomes the minimum rooms needed.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 # Definition for an interval.
 class Interval:
@@ -63,9 +60,7 @@ class MinRooms:
                 j +=1
         return result
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 # Definition for an interval.
 class Interval
@@ -98,9 +93,6 @@ def min_meeting_rooms(intervals)
   result
 end
 ```
-{% endcode-tabs-item %}
-
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(nlog(n))

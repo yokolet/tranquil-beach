@@ -34,9 +34,6 @@ it is always passed as the method argument.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 class TreeNode:
     def __init__(self, x):
@@ -63,9 +60,7 @@ class TreePath:
         walk(root, '', result)
         return result
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=Ruby %}
 ```ruby
 class TreeNode
     attr_accessor :val, :left, :right
@@ -93,8 +88,6 @@ def walk(root, path, result)
     walk(root.right, path + '->', result) if root.right
 end
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n)

@@ -20,9 +20,6 @@ indices.
 
 #### Solution
 
-{% code-tabs %}
-
-{% code-tabs-item title=Python %}
 ```python
 def twoSum(nums, target):
     """
@@ -37,9 +34,7 @@ def twoSum(nums, target):
         else:
             d[target-v] = i
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 # @param {Integer[]} nums
 # @param {Integer} target
@@ -56,9 +51,7 @@ def two_sum(nums, target)
   end
 end
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Java" %}
 ```java
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -79,8 +72,6 @@ public class Solution {
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n)

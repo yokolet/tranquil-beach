@@ -30,9 +30,7 @@ If the price at index i is lower than the current minimum, update the minimum pr
 As for Python code, the loop `for i in range(len(prices))` runs faster than `for p in prices`. For this sort of coding, the index access is better than the enumeration.
 
 #### Solution
-{% code-tabs %}
 
-{% code-tabs-item title=Python %}
 ```python
 class Stock:
     def maxProfit(self, prices):
@@ -49,9 +47,7 @@ class Stock:
                 profit = prices[i] - min_price
         return profit
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Ruby" %}
 ```ruby
 # @param {Integer[]} prices
 # @return {Integer}
@@ -69,9 +65,6 @@ def max_profit(prices)
   profit
 end
 ```
-{% endcode-tabs-item %}
-
-{% endcode-tabs %}
 
 #### Complexity
 - Time: O(n)
