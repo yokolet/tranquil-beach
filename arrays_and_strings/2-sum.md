@@ -20,6 +20,7 @@ indices.
 
 #### Solution
 
+- Python
 ```python
 def twoSum(nums, target):
     """
@@ -34,7 +35,7 @@ def twoSum(nums, target):
         else:
             d[target-v] = i
 ```
-
+- Ruby
 ```ruby
 # @param {Integer[]} nums
 # @param {Integer} target
@@ -50,27 +51,6 @@ def two_sum(nums, target)
     end
   end
 end
-```
-
-```java
-public class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];
-        if (nums == null || nums.length == 0) { return result; }
-        Map<Integer, Integer> map = new HashMap();
-        for (int i = 0; i < nums.length; i++) {
-            int temp = target - nums[i];
-            if (map.containsKey(temp)) {
-                result[0] = map.get(temp);
-                result[1] = i;
-                return result;
-            } else {
-                map.put(nums[i], i);
-            }
-        }
-        return result;
-    }
-}
 ```
 
 #### Complexity

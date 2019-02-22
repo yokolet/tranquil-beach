@@ -42,7 +42,7 @@ Suppose it's on the ith stair, previous step size was 1 or 2.
 So, the sum of `memo[i - 1]` and `memo[i - 2]` will be the value of `memo[i]`. In the end, `memo[n]` holds the answer.
 
 #### Solution
-
+- Python
 ```python
 class Stairs:
     def climbStairsRecur(self, n):
@@ -72,7 +72,7 @@ class Stairs:
                 j += 1
         return memo[n]
 ```
-
+- Ruby
 ```ruby
 # @param {Integer} n
 # @return {Integer}

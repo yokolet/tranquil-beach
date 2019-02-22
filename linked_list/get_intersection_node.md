@@ -38,7 +38,7 @@ If the lists don't intersect, two pointers come to None.
 Either the intersection exists or not, one of the pointer's value is the answer.
 
 #### Solution
-
+- Python
 ```python
 class ListNode:
     def __init__(self, x):

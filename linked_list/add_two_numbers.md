@@ -34,7 +34,7 @@ When the first linked list is shorter than the second, the pointer
 goes to the second linked list. In this case, the shape looks like two linked lists are merged at some node.
 
 #### Solution
-
+- Python
 ```python
 class ListNode:
     def __init__(self, x):
@@ -67,7 +67,7 @@ class TwoNumbers:
                 cur = cur.next
         return head
 ```
-
+- Ruby
 ```ruby
 class ListNode
   attr_accessor :val, :next

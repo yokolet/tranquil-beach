@@ -31,7 +31,7 @@ The complexity is still O(nlog(n)), however, actual performance is expected bett
 Ruby doesn't have heap nor priority queue in the standard library, the solution is a one liner.
 
 #### Solution
-
+- Python
 ```python
 import heapq
 
@@ -49,7 +49,7 @@ class KthLargest:
                 heapq.heapreplace(queue, v)
         return queue[0]
 ```
-
+- Ruby
 ```ruby
 # @param {Integer[]} nums
 # @param {Integer} k

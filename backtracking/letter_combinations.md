@@ -30,7 +30,7 @@ Python solution is a succinct one liner.
 Ruby uses a combination of reduce and map, but is still a one liner and equivalent to Python.
 
 #### Solution
-
+- Python
 ```python
 class LetterCombinations:
      def letterCombinations(self, digits):
@@ -59,7 +59,7 @@ class LetterCombinations:
             idx += 1
         return result
 ```
-
+- Ruby
 ```ruby
   # @param {String} digits
   # @return {String[]}

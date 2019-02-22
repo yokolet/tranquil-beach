@@ -31,7 +31,7 @@ If the current start is bigger than current end, decrement a count so far. Then,
 In the end, the result value becomes the minimum rooms needed.
 
 #### Solution
-
+- Python
 ```python
 # Definition for an interval.
 class Interval:
@@ -60,7 +60,7 @@ class MinRooms:
                 j +=1
         return result
 ```
-
+- Ruby
 ```ruby
 # Definition for an interval.
 class Interval

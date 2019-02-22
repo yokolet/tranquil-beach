@@ -52,7 +52,7 @@ previous one.
 To avoid this, this solution returns the index along side of root node.
 
 #### Solution
-
+- Python
 ```python
 class TreeNode:
     def __init__(self, x):
@@ -87,7 +87,7 @@ class Str2Tree:
         root, _ = walk(s, 0, len(s))
         return root        
 ```
-
+- Ruby
 ```ruby
 class TreeNode
     attr_accessor :val, :left, :right

@@ -49,7 +49,7 @@ The time complexity of this solution is O(n^2). Selecting values from positive a
 When given values are divided in two groups evenly, the performace is the worst.
 
 #### Solution
-
+- Python
 ```python
 def threeSum(nums):
     """
@@ -86,7 +86,7 @@ def threeSum(nums):
                 result.append([a, c, b])
     return result
 ```
-
+- Ruby
 ```ruby
 # @param {Integer[]} nums
 # @return {Integer[][]}
