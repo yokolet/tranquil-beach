@@ -13,10 +13,14 @@ Input: [7,1,5,3,6,4]
 
 Output: 5
 
+Explanation: buy at index 1 and sell at index 5 makes max profit of 5
+
 #### Example 2
 Input: [7,6,4,3,1]
 
 Output: 0
+
+Explanation: the prices ever decrease. There's no index to make a profit.
 
 #### How to Solve
 
