@@ -21,3 +21,4 @@
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
 * Dynamic Programming
     * [Best Time to Buy and Sell Stock](dp/stock.md)
+    * [Climb Stairs](dp/stairs.md)
