@@ -23,5 +23,6 @@
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
     * [Coin Change Patterns](dp/coin_patterns.md)
+    * [Minimum Coin Change](dp/min_coin_change.md)
 * Other
     * [Arranging Coins](other/arranging_coins.md)
