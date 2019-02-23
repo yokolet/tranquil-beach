@@ -38,7 +38,7 @@ The solution here uses an array to save memory.
 However, to solve the problem, starting from 2 dimensional array is easier.
 
 Below is a table for the example 1.
-The row represents coins, while column represents amount.
+The row represents coins, while the column represents amount.
 The first row is a base case -- an empty array is given as coins. Only when the amount is 0, one pattern of answer exists.
 The second row is for coin = 1.
 If `(curret amount - coin value)` is positive or zero,
@@ -52,6 +52,7 @@ The answer is `memo[last row][amount]`.
 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 
 | 2 | 1 | 1 | 2 | 2 | 3 | 3 |
 | 5 | 1 | 1 | 2 | 2 | 3 | 4 |
+| coin | | | | | | |
 
 
 To save memory, this solution does:
@@ -59,13 +60,6 @@ To save memory, this solution does:
 ```
 memo[current row][current amount] = memo[current row][current amount] + memo[current row][current amount - coin value]
 ```
-
-Instead of:
-
-```
-memo[current row][current amount] = memo[prev row][current amount] + memo[current row][current amount - coin value]
-```
-
 
 #### Solution
 - Python
