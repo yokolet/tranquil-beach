@@ -29,3 +29,4 @@
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
 * Other
     * [Arranging Coins](other/arranging_coins.md)
+    * [Palindrome Pairs](other/palindrome_pairs.md)
