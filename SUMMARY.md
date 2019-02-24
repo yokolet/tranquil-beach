@@ -26,5 +26,6 @@
     * [Minimum Coin Change](dp/min_coin_change.md)
     * [Longest Increasing Subsequence](dp/lis.md)
     * [Longest Palindromic Substring](dp/lp_substring.md)
+    * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
 * Other
     * [Arranging Coins](other/arranging_coins.md)
