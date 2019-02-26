@@ -7,6 +7,7 @@
 * Arrays and Strings
     * [2 Sum](arrays_and_strings/2-sum.md)
     * [3 Sum](arrays_and_strings/3-sum.md)
+    * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
@@ -25,8 +26,8 @@
     * [Coin Change Patterns](dp/coin_patterns.md)
     * [Minimum Coin Change](dp/min_coin_change.md)
     * [Longest Increasing Subsequence](dp/lis.md)
-    * [Longest Palindromic Substring](dp/lp_substring.md)
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
+    * [Longest Palindromic Substring](dp/lp_substring.md)
 * Other
     * [Arranging Coins](other/arranging_coins.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
