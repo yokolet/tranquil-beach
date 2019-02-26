@@ -7,9 +7,10 @@
 * Arrays and Strings
     * [2 Sum](arrays_and_strings/2-sum.md)
     * [3 Sum](arrays_and_strings/3-sum.md)
+    * [Add Binary](arrays_and_strings/add_binary.md)
+    * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
-    * [Add Binary](arrays_and_strings/add_binary.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
