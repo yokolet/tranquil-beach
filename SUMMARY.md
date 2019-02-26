@@ -9,6 +9,7 @@
     * [3 Sum](arrays_and_strings/3-sum.md)
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
+    * [Add Binary](arrays_and_strings/add_binary.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
