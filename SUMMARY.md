@@ -16,6 +16,7 @@
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
+    * [Remove Nth Node From End of List](linked_list/nth_node_from_end.md)
     * [Reverse Linked List](linked_list/reverse_linked_list.md)
 * Trees and Graphs
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
