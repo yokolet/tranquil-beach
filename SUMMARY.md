@@ -32,6 +32,8 @@
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
+    * [Search in Rotated Sorted Array](sorting_searching/rotated_sorted_array.md)
+    * [Search in Rotated Sorted Array with Duplicates](sorting_searching/rotated_sorted_array_with_dup.md)
 * Dynamic Programming
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
