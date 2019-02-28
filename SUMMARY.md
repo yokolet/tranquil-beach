@@ -30,6 +30,7 @@
     * [Combination Sum](backtracking/combination_sum.md)
 * Sorting and Searching
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
+    * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
 * Dynamic Programming
     * [Best Time to Buy and Sell Stock](dp/stock.md)
