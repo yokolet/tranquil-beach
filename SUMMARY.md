@@ -28,6 +28,7 @@
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
     * [Combination Sum](backtracking/combination_sum.md)
+    * [Subsets](backtracking/subsets.md)
 * Sorting and Searching
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
