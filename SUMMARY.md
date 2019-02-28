@@ -19,10 +19,11 @@
     * [Remove Nth Node From End of List](linked_list/nth_node_from_end.md)
     * [Reverse Linked List](linked_list/reverse_linked_list.md)
 * Trees and Graphs
+    * [Binary Tree Paths](trees_and_graphs/tree_path.md)
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
-    * [Binary Tree Paths](trees_and_graphs/tree_path.md)
+    * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
     * [Combination Sum](backtracking/combination_sum.md)
