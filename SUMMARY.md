@@ -23,6 +23,7 @@
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
+    * [Number of Islands](trees_and_graphs/number_of_islands.md)
     * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
