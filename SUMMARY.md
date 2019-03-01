@@ -28,6 +28,7 @@
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
     * [Combination Sum](backtracking/combination_sum.md)
+    * [Next Permutation](backtracking/next_permutation.md)
     * [Permutations](backtracking/permutations.md)
     * [Subsets](backtracking/subsets.md)
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
