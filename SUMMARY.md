@@ -30,6 +30,7 @@
     * [Combination Sum](backtracking/combination_sum.md)
     * [Permutations](backtracking/permutations.md)
     * [Subsets](backtracking/subsets.md)
+    * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
