@@ -51,3 +51,4 @@
 * Other
     * [Arranging Coins](other/arranging_coins.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
+    * [Reverse Integer](other/reverse_integer.md)
