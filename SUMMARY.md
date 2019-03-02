@@ -21,6 +21,7 @@
 * Trees and Graphs
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
+    * [Convert Binary Search Tree to Sorted Doubly Linked List](trees_and_graphs/bst_to_list.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
