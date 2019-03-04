@@ -50,6 +50,7 @@
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
     * [Longest Palindromic Substring](dp/lp_substring.md)
 * Other
+    * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
     * [Reverse Integer](other/reverse_integer.md)
