@@ -8,6 +8,7 @@
     * [2 Sum](arrays_and_strings/2-sum.md)
     * [3 Sum](arrays_and_strings/3-sum.md)
     * [Add Binary](arrays_and_strings/add_binary.md)
+    * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
