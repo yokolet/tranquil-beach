@@ -55,6 +55,7 @@
 * Other
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
+    * [Divide Two Integers](other/division.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
     * [Reverse Integer](other/reverse_integer.md)
     * [Sqrt(x)](other/sqrt_approx.md)
