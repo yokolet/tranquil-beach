@@ -47,6 +47,7 @@
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
     * [Coin Change Patterns](dp/coin_patterns.md)
+    * [Decode Ways](dp/decode_digits.md)
     * [Minimum Coin Change](dp/min_coin_change.md)
     * [Longest Increasing Subsequence](dp/lis.md)
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
