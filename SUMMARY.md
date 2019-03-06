@@ -18,6 +18,7 @@
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
     * [Valid Parentheses](arrays_and_strings/valid_parentheses.md)
+    * [Wildcard Matching](arrays_and_strings/wildcard.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
