@@ -26,6 +26,7 @@
     * [Remove Nth Node From End of List](linked_list/nth_node_from_end.md)
     * [Reverse Linked List](linked_list/reverse_linked_list.md)
 * Trees and Graphs
+    * [Binary Tree Level Order Traversal](trees_and_graphs/level_order_traversal.md)
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Convert Binary Search Tree to Sorted Doubly Linked List](trees_and_graphs/bst_to_list.md)
