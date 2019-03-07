@@ -42,6 +42,7 @@
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
+    * [Merge Intervals](sorting_searching/merge_intervals.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
     * [Search in Rotated Sorted Array](sorting_searching/rotated_sorted_array.md)
