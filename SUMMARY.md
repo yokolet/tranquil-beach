@@ -42,6 +42,7 @@
     * [Combination Sum](backtracking/combination_sum.md)
     * [Next Permutation](backtracking/next_permutation.md)
     * [Permutations](backtracking/permutations.md)
+    * [Remove Invalid Parentheses](backtracking/invalid_parentheses.md)
     * [Subsets](backtracking/subsets.md)
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
