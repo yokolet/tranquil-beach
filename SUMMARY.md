@@ -31,6 +31,7 @@
     * [Binary Tree Vertical Order Traversal](trees_and_graphs/vertical_order_traversal.md)
     * [Clone Graph](trees_and_graphs/clone.md)
     * [Closest Binary Search Tree Value](trees_and_graphs/closest_value.md)
+    * [Construct Binary Tree from Preorder and Inorder Traversal](trees_and_graphs/preorder_inorder.md)
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Convert Binary Search Tree to Sorted Doubly Linked List](trees_and_graphs/bst_to_list.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
