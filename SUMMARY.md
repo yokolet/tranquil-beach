@@ -14,6 +14,7 @@
     * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
+    * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Trapping Rain Water](arrays_and_strings/rain_water.md)
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
