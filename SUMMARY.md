@@ -42,6 +42,7 @@
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
     * [Combination Sum](backtracking/combination_sum.md)
+    * [Expression Add Operators](backtracking/operators.md)
     * [Next Permutation](backtracking/next_permutation.md)
     * [Permutations](backtracking/permutations.md)
     * [Remove Invalid Parentheses](backtracking/invalid_parentheses.md)
