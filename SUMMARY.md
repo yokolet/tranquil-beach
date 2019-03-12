@@ -10,6 +10,7 @@
     * [Add Binary](arrays_and_strings/add_binary.md)
     * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Intersection of Two Arrays with Duplicates](arrays_and_strings/two_arrays.md)
+    * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
     * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
