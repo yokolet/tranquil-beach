@@ -13,6 +13,7 @@
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
     * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
+    * [Minimum Window Substring](arrays_and_strings/min_window.md)
     * [Monotonic Array](arrays_and_strings/monotonic.md)
     * [Product of Array Except Self](arrays_and_strings/product.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
