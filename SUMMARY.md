@@ -62,6 +62,7 @@
     * [Search in Rotated Sorted Array](sorting_searching/rotated_sorted_array.md)
     * [Search in Rotated Sorted Array with Duplicates](sorting_searching/rotated_sorted_array_with_dup.md)
     * [Smallest Range](sorting_searching/min_range.md)
+    * [Verifying an Alien Dictionary](sorting_searching/alien_sort.md)
 * Dynamic Programming
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
