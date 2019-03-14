@@ -85,3 +85,4 @@
 * Design
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [First Bad Version](design/bad_version.md)
+    * [Read N Characters Given Read4 API - Call multiple times](design/read4.md)
