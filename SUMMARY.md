@@ -84,3 +84,4 @@
     * [Sqrt(x)](other/sqrt_approx.md)
 * Design
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
+    * [First Bad Version](design/bad_version.md)
