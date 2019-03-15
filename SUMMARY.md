@@ -87,4 +87,5 @@
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [Binary Search Tree Iterator](design/bst_iterator.md)
     * [First Bad Version](design/bad_version.md)
+    * [Read N Characters Given Read4](design/once_by_read4.md)
     * [Read N Characters Given Read4 API - Call multiple times](design/read4.md)
