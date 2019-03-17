@@ -84,6 +84,7 @@
     * [Palindrome Pairs](other/palindrome_pairs.md)
     * [Reverse Integer](other/reverse_integer.md)
     * [Sqrt(x)](other/sqrt_approx.md)
+    * [Strobogrammatic Number](other/strobogrammatic.md)
 * Design
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [Binary Search Tree Iterator](design/bst_iterator.md)
