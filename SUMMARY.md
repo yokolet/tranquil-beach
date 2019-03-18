@@ -57,6 +57,7 @@
     * [Subsets](backtracking/subsets.md)
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
+    * [K Closest Points to Origin](sorting_searching/k_closest.md)
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Merge Intervals](sorting_searching/merge_intervals.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
