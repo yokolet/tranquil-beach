@@ -47,6 +47,7 @@
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
+    * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
     * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
