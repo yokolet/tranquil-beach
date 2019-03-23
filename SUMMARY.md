@@ -34,6 +34,7 @@
     * [Remove Nth Node From End of List](linked_list/nth_node_from_end.md)
     * [Reorder List](linked_list/reorder_list.md)
     * [Reverse Linked List](linked_list/reverse_linked_list.md)
+    * [Sort List](linked_list/sort_list.md)
 * Trees and Graphs
     * [Alien Dictionary](trees_and_graphs/alien.md)
     * [Binary Tree Level Order Traversal](trees_and_graphs/level_order_traversal.md)
