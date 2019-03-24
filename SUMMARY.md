@@ -18,6 +18,7 @@
     * [Minimum Window Substring](arrays_and_strings/min_window.md)
     * [Monotonic Array](arrays_and_strings/monotonic.md)
     * [Most Common Word](arrays_and_strings/most_common.md)
+    * [Palindromic Substrings](arrays_and_strings/count_palindromes.md)
     * [Plus One](arrays_and_strings/plus_one.md)
     * [Product of Array Except Self](arrays_and_strings/product.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
