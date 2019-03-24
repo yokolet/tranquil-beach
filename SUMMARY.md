@@ -14,6 +14,7 @@
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
     * [Maxumum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
+    * [Minimum Index Sum of Two Lists](arrays_and_strings/min_index_sum.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
     * [Minimum Window Substring](arrays_and_strings/min_window.md)
     * [Monotonic Array](arrays_and_strings/monotonic.md)
