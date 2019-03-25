@@ -27,6 +27,7 @@
     * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Top K Frequent Elements](arrays_and_strings/top_k.md)
     * [Trapping Rain Water](arrays_and_strings/rain_water.md)
+    * [Valid Number](arrays_and_strings/valid_number.md)
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
     * [Valid Parentheses](arrays_and_strings/valid_parentheses.md)
