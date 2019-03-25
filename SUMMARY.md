@@ -59,6 +59,7 @@
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
+    * [Reconstruct Itinerary](trees_and_graphs/itinerary.md)
     * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
