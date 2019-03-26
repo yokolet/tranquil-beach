@@ -97,6 +97,7 @@
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
     * [Divide Two Integers](other/division.md)
+    * [Excel Sheet Column Title](other/column_title.md)
     * [Exclusive Time of Functions](other/exclusive_time.md)
     * [Integer to English Words](other/i_to_e.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
