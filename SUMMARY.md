@@ -26,6 +26,7 @@
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
     * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Top K Frequent Elements](arrays_and_strings/top_k.md)
+    * [Top K Frequent Words](arrays_and_strings/top_words.md)
     * [Trapping Rain Water](arrays_and_strings/rain_water.md)
     * [Valid Number](arrays_and_strings/valid_number.md)
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
