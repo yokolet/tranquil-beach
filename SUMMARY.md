@@ -116,3 +116,8 @@
     * [Range Sum Query 2D - Immutable](design/num_matrix.md)
     * [Read N Characters Given Read4](design/once_by_read4.md)
     * [Read N Characters Given Read4 API - Call multiple times](design/read4.md)
+
+## SQL
+* [Combine Two Tables](sql/combine_two_tables.md)
+* [Nth Highest Salary](sql/nth_highest.md)
+* [Second Highest Salary](sql/second_highest.md)
