@@ -118,6 +118,7 @@
     * [Read N Characters Given Read4 API - Call multiple times](design/read4.md)
 
 ## SQL
+* [Big Countries](sql/big_countries.md)
 * [Combine Two Tables](sql/combine_two_tables.md)
 * [Employees Earning More Than Their Managers](sql/more_than_manager.md)
 * [Nth Highest Salary](sql/nth_highest.md)
