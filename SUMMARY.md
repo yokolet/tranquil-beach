@@ -119,5 +119,6 @@
 
 ## SQL
 * [Combine Two Tables](sql/combine_two_tables.md)
+* [Employees Earning More Than Their Managers](sql/more_than_manager.md)
 * [Nth Highest Salary](sql/nth_highest.md)
 * [Second Highest Salary](sql/second_highest.md)
