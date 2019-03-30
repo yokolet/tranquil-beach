@@ -61,6 +61,7 @@
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
+    * [The Maze](trees_and_graphs/maze.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
     * [Reconstruct Itinerary](trees_and_graphs/itinerary.md)
     * [Shortest Distance from All Buildings](trees_and_graphs/shortest_distance.md)
