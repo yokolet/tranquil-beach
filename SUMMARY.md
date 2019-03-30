@@ -24,6 +24,7 @@
     * [Plus One](arrays_and_strings/plus_one.md)
     * [Prison Cells After N Days](arrays_and_strings/prison_cells.md)
     * [Product of Array Except Self](arrays_and_strings/product.md)
+    * [Reorder Log Files](arrays_and_strings/reorder_log.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
     * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Top K Frequent Elements](arrays_and_strings/top_k.md)
