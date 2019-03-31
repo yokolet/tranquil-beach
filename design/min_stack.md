@@ -24,6 +24,8 @@ minStack.getMin();   --> Returns -2
 
 #### How to Solve
 
+Use two stacks, one for normal stack and another for min value stack. When pushing data in, save the value in min stack if it is less than or equal to current min value. When poping data out, remove the value from min stack if it is the same as top of the stack.
+
 #### Solution
 - Python
 
