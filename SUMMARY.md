@@ -52,6 +52,7 @@
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
     * [Binary Tree Right Side View](trees_and_graphs/right_view.md)
     * [Binary Tree Vertical Order Traversal](trees_and_graphs/vertical_order_traversal.md)
+    * [Binary Tree Zigzag Level Order Traversal](trees_and_graphs/zigzag_traversal.md)
     * [Clone Graph](trees_and_graphs/clone.md)
     * [Closest Binary Search Tree Value](trees_and_graphs/closest_value.md)
     * [Construct Binary Tree from Preorder and Inorder Traversal](trees_and_graphs/preorder_inorder.md)
