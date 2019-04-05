@@ -37,6 +37,7 @@
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
     * [Valid Parentheses](arrays_and_strings/valid_parentheses.md)
     * [Wildcard Matching](arrays_and_strings/wildcard.md)
+    * [Word Ladder - Length](arrays_and_strings/ladder_length.md)
 * Linked List
     * [Add Two Numbers](linked_list/add_two_numbers.md)
     * [Copy List with Random Pointer](linked_list/copy_with_random.md)
