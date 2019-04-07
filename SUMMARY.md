@@ -112,6 +112,7 @@
     * [Exclusive Time of Functions](other/exclusive_time.md)
     * [Integer to English Words](other/i_to_e.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
+    * [Perfect Number](other/perfect_number.md)
     * [Reverse Integer](other/reverse_integer.md)
     * [Roman to Integer](other/roman_to_integer.md)
     * [Sqrt(x)](other/sqrt_approx.md)
