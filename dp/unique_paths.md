@@ -30,7 +30,7 @@ Dynamic Programming is an approach to solve this problem.
 Like other typical Dynamic Programming solutions, the states so far are saved in the auxiliary array.
 
 In this case, the code initializes first row and column to 1, which means only one way is possible to reach there.
-Then, the code updates each position by adding the value of up and left. The answer is in the last position.
+Then, the code updates each square by adding the value of up and left. The answer is in the last square.
 
 The solution 1 here is a naive approach by 2 dimensional auxiliary array. This works well, still. However, the second solution is effective. The solution 2 uses 1 dimensional auxiliary array. The time complexity is the same, but the space complexity is smaller.
 
