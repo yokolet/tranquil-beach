@@ -106,6 +106,7 @@
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
     * [Longest Palindromic Substring](dp/lp_substring.md)
     * [Regular Expression Matching](dp/regex_match.md)
+    * [Unique Paths](dp/unique_paths.md)
 * Other
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
