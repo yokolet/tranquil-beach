@@ -44,6 +44,7 @@
     * [Copy List with Random Pointer](linked_list/copy_with_random.md)
     * [Intersection of Two Linked Lists](linked_list/get_intersection_node.md)
     * [Merge k Sorted Lists](linked_list/merge_lists.md)
+    * [Merge Two Sorted Lists](linked_list/merge_two_lists.md)
     * [Palindrome Linked List](linked_list/palindrome_list.md)
     * [Remove Nth Node From End of List](linked_list/nth_node_from_end.md)
     * [Reorder List](linked_list/reorder_list.md)
