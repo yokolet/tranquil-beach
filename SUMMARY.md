@@ -87,6 +87,7 @@
     * [Find Peak Element](sorting_searching/peak_element.md)
     * [K Closest Points to Origin](sorting_searching/k_closest.md)
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
+    * [Median of Two Sorted Arrays](sorting_searching/sorted_arrays_median.md)
     * [Merge Intervals](sorting_searching/merge_intervals.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
