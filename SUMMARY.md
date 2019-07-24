@@ -12,6 +12,7 @@
     * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Find the Closest Palindrome](arrays_and_strings/closest_palindrome.md)
     * [Game of Life](arrays_and_strings/game_of_life.md)
+    * [Group Anagrams](arrays_and_strings/group_anagrams.md)
     * [Intersection of Two Arrays](arrays_and_strings/intersection.md)
     * [Intersection of Two Arrays with Duplicates](arrays_and_strings/two_arrays.md)
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
