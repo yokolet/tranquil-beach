@@ -68,6 +68,7 @@
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
     * [Convert Binary Search Tree to Sorted Doubly Linked List](trees_and_graphs/bst_to_list.md)
     * [Course Schedule](trees_and_graphs/course_schedule.md)
+    * [Course Schedule Path](trees_and_graphs/course_schedule_path.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Flood Fill](trees_and_graphs/flood_fill.md)
