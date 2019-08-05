@@ -73,6 +73,7 @@
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Flood Fill](trees_and_graphs/flood_fill.md)
+    * [Flower Planting](trees_and_graphs/flower_planting.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [The Maze](trees_and_graphs/maze.md)
