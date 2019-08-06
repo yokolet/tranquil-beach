@@ -86,6 +86,7 @@
     * [Combination Sum](backtracking/combination_sum.md)
     * [Expression Add Operators](backtracking/operators.md)
     * [Generate Parentheses](backtracking/generate_parentheses.md)
+    * [Multiple Words Search](backtracking/word_search_filter.md)
     * [Next Permutation](backtracking/next_permutation.md)
     * [Permutations](backtracking/permutations.md)
     * [Remove Invalid Parentheses](backtracking/invalid_parentheses.md)

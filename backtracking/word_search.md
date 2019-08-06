@@ -6,7 +6,7 @@ Given a two dimensional array of letters and a word, find whether the word exist
 
 #### Example 1
 
-Input: `word = 'ABCCED'
+Input: `word = 'ABCCED'`
 
 ```
 board =
@@ -81,5 +81,5 @@ class WordSearch:
 
 #### Complexity
 
-- Time: O(4^l) -- l is a length of the given word
-- Space: O(1)
+- Time: `O(4^l)` -- l is a length of the given word
+- Space: `O(1)`
