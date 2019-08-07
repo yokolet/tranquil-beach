@@ -80,6 +80,7 @@
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
     * [Reconstruct Itinerary](trees_and_graphs/itinerary.md)
     * [Shortest Distance from All Buildings](trees_and_graphs/shortest_distance.md)
+    * [Smallest Subtree with All the Deepest Nodes](trees_and_graphs/deepest_smallest_subtree.md)
     * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
