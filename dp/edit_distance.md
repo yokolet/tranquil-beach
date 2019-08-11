@@ -60,7 +60,7 @@ For replace, shorten both words by one and plus one to distance, then add to the
 
 - Python
 
-```pyton
+```python
 class EditDistance:
     def minDistance(self, word1: str, word2: str) -> int:
         if not word1 or not word2:
@@ -94,7 +94,7 @@ class EditDistance:
 
 - Python
 
-```ptyhon
+```python
 from collections import deque
 
 class EditDistance:

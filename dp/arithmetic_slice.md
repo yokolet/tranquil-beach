@@ -18,7 +18,7 @@ Explanation: `[1,2,3], [2,3,4], [1,2,3,4]` are arithmetic slices.
 
 #### How to Solve
 
-The problem asks how many patterns of arithmetic slices(subarrays) are there. The dynamic programming (DP) is a good approach. An auxiliary array is used to save the state so far. The array saves the number of patters at each index. Starting from the difference of index 1 and 0, update the number as long as the difference is the same. When it comes to another difference, re-start with the new difference from that index. At the end,
+The problem asks how many patterns of arithmetic slices(subarrays) are there. The dynamic programming (DP) is a good approach. An auxiliary array is used to save the state so far. The array saves the number of patterns at each index. Starting from the difference of index 1 and 0, update the number as long as the difference is the same. When it comes to another difference, re-start with the new difference from that index. At the end,
 sum up all values in the auxiliary array which will be the answer.
 
 #### Solution
