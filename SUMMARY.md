@@ -111,6 +111,7 @@
     * [Snakes and Ladders](sorting_searching/snakes_ladders.md)
     * [Verifying an Alien Dictionary](sorting_searching/alien_sort.md)
 * Dynamic Programming
+    * [Arithmetic Slice](dp/arithmetic_slice.md)
     * [Best Time to Buy and Sell Stock](dp/stock.md)
     * [Climb Stairs](dp/stairs.md)
     * [Coin Change Patterns](dp/coin_patterns.md)
