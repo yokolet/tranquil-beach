@@ -39,7 +39,7 @@ The solution uses heap as a data structure to save the combination of (v, i, j),
 - Python
 
 ```python
-from collections import defaultdict
+import heapq
 
 class MinRange:
     def smallestRange(self, nums):
