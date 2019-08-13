@@ -33,10 +33,7 @@ The last one has the minimum diff 4, so the answer is `[20, 24]`.
 
 #### How to Solve
 
-The first step is to create a sorted list.
-There may be duplicated values, so each element in the sorted list has a pair of value and set of groups.
-
-The second step is to go over the sorted list while checking missing group(s), and start index. When start index shifts, the missing group changes. Those should be reflected to the current missing groups.
+The solution uses heap as a data structure to save the combination of (v, i, j), where v is a value at i-th nums of j-th index. Starting from one combination from all nums, the solution takes smallest value from the heap one by one. Each time, the mininum range is compared. Then, a value of the next index of the same i-th nums is added to heap. Also, maximum value is updated. When one of the nums comes to the end, the minimum range will be returned. This is because, there'a no more range to cover all nums.
 
 #### Solution
 - Python
@@ -50,28 +47,19 @@ class MinRange:
         :type nums: List[List[int]]
         :rtype: List[int]
         """
-        all_nums = defaultdict(set)
-        for i, num in enumerate(nums):
-            for v in num:
-                all_nums[v].add(i)
-        all_nums = sorted(all_nums.items())
-        min_range, min_diff = [all_nums[0][0], all_nums[-1][0]], all_nums[-1][0] - all_nums[0][0]
-        start, missing, memo = 0, len(nums), defaultdict(int)
-        for v, ks in all_nums:
-            for k in ks:
-                if k not in memo or memo[k] <= 0:
-                    missing -= 1
-                memo[k] += 1
-            while missing <= 0 and all_nums[start][0] <= v:
-                if v - all_nums[start][0] < min_diff:
-                    min_range = [all_nums[start][0], v]
-                    min_diff = v - all_nums[start][0]
-                for k in all_nums[start][1]:
-                    memo[k] -= 1
-                    if memo[k] <= 0:
-                        missing += 1
-                start += 1
-        return min_range
+        queue = [(nums[i][0], i, 0) for i in range(len(nums))]
+        heapq.heapify(queue)
+        max_v = max(queue)[0]
+        min_range = [float('-inf'), float('inf')]
+        while queue:
+            min_v, i, j = heapq.heappop(queue)
+            if max_v - min_v < min_range[1] - min_range[0]:
+                min_range = [min_v, max_v]
+            if j == len(nums[i])-1:
+                return min_range
+            v = nums[i][j + 1]
+            max_v = max(max_v, v)
+            heapq.heappush(queue, (v, i, j + 1))
 ```
 
 - Ruby
@@ -117,5 +105,9 @@ end
 ```
 
 #### Complexity
-- Time: `O(k * n(log(k * n)))` -- k is a number of lists, n is a number of elements in each list
-- Space: `O(k * n)`
+- Python
+    - Time: `O((k+n)log(k+n))` -- -- k is a number of lists, n is a number of elements in each list
+    - Space: `O(k)`
+- Ruby
+    - Time: `O(k * n(log(k * n)))`
+    - Space: `O(k * n)`
