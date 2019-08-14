@@ -83,5 +83,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n*m) -- n is a length of a given word list, m is a length of the word in the list
-- Space: O(n)
+- Time: `O(n*m) `-- n is a length of a given word list, m is a length of the word in the list
+- Space: `O(n)`

@@ -90,5 +90,5 @@ end
 ```
 
 #### Complexity
-- Time: O(1) -- the longest string is MMMCMXCIX
-- Space: O(1)
+- Time: `O(1)` -- the longest string is MMMCMXCIX
+- Space: `O(1)`

@@ -104,5 +104,5 @@ end
 ```
 
 #### Complexity
-- Time:
-- Space:
+- Time: `O(1)`
+- Space: `O(1)`

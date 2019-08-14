@@ -58,5 +58,5 @@ end
 ```
 
 #### Complexity
-- Time: O(sqrt(n))
-- Space: O(1)
+- Time: `O(sqrt(n))`
+- Space: `O(1)`

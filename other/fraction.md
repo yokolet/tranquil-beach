@@ -54,5 +54,5 @@ class Fraction:
 
 #### Complexity
 
-- Time: O(d) -- d is a length of repeating digits
-- Space: O(d)
+- Time: `O(d)` -- d is a length of repeating digits
+- Space: `O(d)`

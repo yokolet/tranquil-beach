@@ -64,5 +64,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- n is a length of the givien digits
-- Space: O(1)
+- Time: `O(n)` -- n is a length of the givien digits
+- Space: `O(1)`
