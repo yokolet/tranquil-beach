@@ -39,7 +39,9 @@ fn 1 :             |======================>|        4 units
 
 #### How to Solve
 
-Use a stack to save previous function. When another function comes in, add up units so far to the result array for the previous function. Push the current function to the stack and update the unit. When the function exists, the function itself should be on the top of the stack. Add up units so far to the result array fo the function. The unit calculation on start or end is slightly different. Pop the function and update the unit.
+Use a stack to save a previous function id. When another function comes in, add up units so far to the previous function id in the result array. Push the current function id to the stack and update the unit. When the event is the "end.", the function id itself should be on the top of the stack. Add up units so far to the result array for the last function id, then pop the function id. The unit calculations on start or end are slightly different. In any case, each function gets at least 1 unit. In light of this, the unit on the end event gets 1 more.
+
+A tricky part of this problem is: no function may be on the running state. In such a case, `stack[-1]` fails. To pevent this, the solution adds the first function id in the stack and start the iteration from the first one.
 
 #### Solution
 - Python
@@ -47,21 +49,21 @@ Use a stack to save previous function. When another function comes in, add up un
 ```python
 class ExclusiveTime:
     def exclusiveTime(self, n: int, logs: 'List[str]') -> 'List[int]':
-        result = [0] * n
-        f, event, t = logs[0].split(":")
-        unit = int(t)
-        stack = [int(f)]
+        result = [0 for _ in range(n)]
+        f_id, event, t = logs[0].split(":")
+        prev_t = int(t)
+        stack = [int(f_id)]
         for log in logs:
-            f, event, t = log.split(":")
-            t_ = int(t)
+            f_id, event, t = log.split(":")
+            cur_t = int(t)
             if event == "start":
-                result[stack[-1]] += t_ - unit
-                stack.append(int(f))
-                unit = t_
+                result[stack[-1]] += cur_t - prev_t
+                stack.append(int(f_id))
+                prev_t = cur_t
             else:
-                result[stack[-1]] += t_ - unit + 1
+                result[stack[-1]] += cur_t - prev_t + 1
                 stack.pop()
-                unit = t_ + 1
+                prev_t = cur_t + 1
         return result
 ```
 
