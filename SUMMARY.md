@@ -27,6 +27,7 @@
     * [Most Common Word](arrays_and_strings/most_common.md)
     * [Move Zeroes](arrays_and_strings/move_zeroes.md)
     * [Palindromic Substrings](arrays_and_strings/count_palindromes.md)
+    * [Permutation in String](arrays_and_strings/permutation_check.md)
     * [Plus One](arrays_and_strings/plus_one.md)
     * [Prison Cells After N Days](arrays_and_strings/prison_cells.md)
     * [Product of Array Except Self](arrays_and_strings/product.md)
