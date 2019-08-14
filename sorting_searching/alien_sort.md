@@ -31,9 +31,8 @@ Explanation: According to lexicographical rules `"apple" > "app"`.
 
 For the first step, create character to index mapping.
 The second step is to go through the two words from beginning.
-Compare each character based on the character ot index mapping.
-To handle a substring to other, this solution uses a flag, sub.
-When iteration reaches to the end and the correct order continues to the one of word's end, the length of two words matters.
+When the previous and current words' characters at the same index are not the same, compare each character based on the character to index mapping.
+Also, words' lengths needs to be compared when the character comparison ends by the last index.
 
 #### Solution
 - Python
@@ -41,21 +40,16 @@ When iteration reaches to the end and the correct order continues to the one of 
 ```python
 class AlienSort:
     def isAlienSorted(self, words: 'List[str]', order: str) -> bool:
-        memo = {}
-        for i, c in enumerate(order):
-            memo[c] = i
+        memo = {c: i for i, c in enumerate(order)}
         prev = words[0]
         for cur in words[1:]:
-            i, j, sub = 0, 0, True
-            while i < len(prev) and j < len(cur):
-                if memo[prev[i]] > memo[cur[j]]:
-                    return False
-                if memo[prev[i]] < memo[cur[j]]:
-                    sub = False
-                    break
+            i, j = 0, 0
+            while i < len(prev) and j < len(cur) and prev[i] == cur[j]:
                 i += 1
                 j += 1
-            if len(cur) < len(prev) and sub:
+            if i < len(prev) and j < len(cur) and memo[prev[i]] > memo[cur[j]]:
+                return False
+            if len(prev) > len(cur) and prev[i-1] == cur[j-1]:
                 return False
             prev = cur
         return True
