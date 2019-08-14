@@ -55,17 +55,8 @@ Actual calculation starts from subtracting `11`. Then the divisor is shifted 1 b
 
 ```python
 class Division:
-    def divide(self, dividend, divisor):
-        """
-        :type dividend: int
-        :type divisor: int
-        :rtype: int
-        """
-        if (dividend > 0 and divisor > 0) or\
-            (dividend < 0 and divisor < 0):
-            sign = 1
-        else:
-            sign = -1
+    def divide(self, dividend: int, divisor: int) -> int:
+        sign = 1 if dividend * divisor > 0 else -1
         n, d = abs(dividend), abs(divisor)
         result = 0
         while d <= n:
