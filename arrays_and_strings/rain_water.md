@@ -42,23 +42,19 @@ When `left max > right max` adds `right max = height[right]` to the total and de
 
 ```python
 class RainWater:
-    def trap(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
+    def trap(self, height: 'List[int]') -> int:
         if not height or len(height) < 3: return 0
-    
         left, right, total = 0, len(height) - 1, 0
         left_max, right_max = height[left], height[right]
         while left < right:
-            left_max, right_max = max(height[left], left_max), max(height[right], right_max)
             if left_max <= right_max:
                 total += left_max - height[left]
                 left += 1
+                left_max = max(left_max, height[left])
             else:
                 total += right_max - height[right]
                 right -= 1
+                right_max = max(right_max, height[right])
         return total
 ```
 
