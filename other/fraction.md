@@ -24,7 +24,7 @@ Output: `"0.(6)"`
 
 #### How to Solve
 
-First create a string for the integer part. Then move on to processing a fracutional part. Start from a modulo. If the modulo is 0, return the string. To find a repeating digits, a dictionary is a useful data structure. Save the modulo and the string length so far to insert a staring parenthesis later. When the modulo found in the dictionary, get the string length at the previous same modulo. Insert '(' and append ')' at the end. The solution here may add '(0)', so it is removed.
+First create a string for the integer part. Then move on to processing a fractional part. Start from a modulo. If the modulo is 0, return the string. To find a repeating digits, a dictionary is a useful data structure. Save a pair of the modulo and the string length so far to insert a staring parenthesis later. When the same module found in the dictionary, get the string length at the previous same modulo. Insert '(' and append ')' at the end. The solution here may add '(0)', so it is removed.
 
 #### Solution
 
