@@ -45,5 +45,5 @@ end
 ```
 
 #### Complexity
-- Time: O(nlog(n))
-- Space: O(n)
+- Time: `O(nlog(n))`
+- Space: `O(n)`

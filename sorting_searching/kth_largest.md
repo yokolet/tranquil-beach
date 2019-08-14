@@ -63,5 +63,5 @@ end
 ```
 
 #### Complexity
-- Time: O(nlog(n))
-- Space: O(k) (Python), O(n) (Ruby)
+- Time: `O(nlog(n))`
+- Space: `O(k)` -- Python, `O(n)` -- Ruby

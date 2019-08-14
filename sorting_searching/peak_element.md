@@ -71,5 +71,5 @@ end
 ```
 
 #### Complexity
-- Time: O(log(n))
-- Space: O(1)
+- Time: `O(log(n))`
+- Space: `O(1)`

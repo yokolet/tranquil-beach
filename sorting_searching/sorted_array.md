@@ -70,5 +70,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n+m) -- n and m are the lengths of given arrays
-- Space: O(n+m)
+- Time: `O(n+m)` -- m and n are the lengths of given arrays, `m > n`
+- Space: `O(m)`
