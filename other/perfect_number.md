@@ -17,7 +17,7 @@ Explanation: `28 = 1 + 2 + 4 + 7 + 14`
 
 #### How to Solve
 
-Iterating from 2 to num while checking whther it is a divisor or not will give the answer. However, it runs very slow, so this problem's point is how to cut down the iteration.
+Iterating from 2 to num while checking whether it is a divisor or not will give the answer. However, it runs very slow, so this problem's point is how to cut down the iteration.
 
 Like finding prime number, sqrt(num) can be upper bound. For example, when 2 is a divisor, 28 / 2 = 14 is also a divisor. Given that, limit the iteration up to sqrt(num) and add up two numbers. In the end, if the sum is the same as num, the answer is true, otherwise false.  
 

@@ -26,8 +26,7 @@ Output: `21`
 Save sign and iterate from the left (ones place) to right.
 The given integer modulo 10 is added up to the `result * 10`, while a quotient goes to the next round.
 
-In the end, the result should be checked whether it is overflowed or not.
-
+In the end, the result should be checked whether it overflows or not. Python and Ruby don't overflow, but some other languages do. Since it is a requirment of the problem, overflow check is added.
 
 #### Solution
 - Python
