@@ -32,22 +32,15 @@ If the two chars is not the same, check left + 1 to right is a palindrome. If fa
 
 ```python
 class PalindromeByDeletion:
-    def validPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+    def validPalindrome(self, s: 'str') -> 'bool':
         n = len(s)
         if n <= 2 or s == s[::-1]: return True
         left, right = 0, n - 1
-        while left < right:
-            if s[left] == s[right]:
-                left += 1
-                right -= 1
-            else:
-                return s[left+1:right+1] == s[left+1:right+1][::-1] or\
-                        s[left:right] == s[left:right][::-1]
-        return True
+        while left < right and s[left] == s[right]:
+            left += 1
+            right -= 1
+        return s[left+1:right+1] == s[left+1:right+1][::-1] or\
+                s[left:right] == s[left:right][::-1]
 ```
 
 - Ruby
@@ -73,5 +66,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1)
+- Time: `O(n)`
+- Space: `O(1)`
