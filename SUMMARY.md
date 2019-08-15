@@ -78,6 +78,7 @@
     * [Flood Fill](trees_and_graphs/flood_fill.md)
     * [Flower Planting](trees_and_graphs/flower_planting.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
+    * [Island Perimeter](trees_and_graphs/perimeter.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [The Maze](trees_and_graphs/maze.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
