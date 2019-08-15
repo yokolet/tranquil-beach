@@ -15,41 +15,35 @@ Output: `"BANC"`
 
 #### How to Solve
 
-As a preparation, save character frequency of T to a dictionary (Hash). Set missing characters as the length of T, and left pointer to 0. While going over the string S, if the character is memo's key and its count is greater than 0, decrement missing. Whatever the character is, decrement count for the character in memo. This is to find a minimum length.
+As a preparation, save character frequency of T to a dictionary (Hash). Set missing characters as the length of T, and left pointer to 0. While going over the string S, if the character is the dictionary's key and its count is greater than 0, decrement missing. Whatever the character is, decrement count for the character in the dictionary. This is to find a minimum length.
 
-Once missing reaches to 0, check the counts in memo to minimize the length. If the count is negative, the character is not in T. So, take it out from the window by incrementing the count and left pointer. Then, compare `current index - left pointer` to `min_right - min_left`.
+Once missing reaches to 0, check the counts in the dictionary to minimize the length. If the count is negative, the character is not in T. So, take it out from the window by incrementing the count and left pointer. Then, compare `current index - left pointer` to `min_right - min_left`.
 
-Lastly, shift window's left side by incrementing character count and left pointer. Also, increment missing since the left pointer is on the index of character in T.
+Lastly, shift the left pointer by incrementing character count. Also, increment missing since the left pointer is on the index of character in T.
 
 #### Solution
 - Python
 
 ```python
+from collections import defaultdict
+
 class MinWindow:
-    def minWindow(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: str
-        """
+    def minWindow(self, s: str, t: str) -> str:
         missing, left, min_left, min_right = len(t), 0, 0, float('inf')
-        memo = defaultdict(int)
+        target = defaultdict(int)
         for c in t:
-            memo[c] += 1
-        for right, c in enumerate(s):
-            if memo[c] > 0:
+            target[c] += 1
+        for right, c in enumerate(s, 1):
+            if target[c] > 0:
                 missing -= 1
-            memo[c] -= 1
+            target[c] -= 1
             if missing == 0:
-                while memo[s[left]] < 0:
-                    memo[s[left]] += 1
+                while target[s[left]] < 0:
+                    target[s[left]] += 1
                     left += 1
                 if right - left < min_right - min_left:
-                    min_right, min_left = right, left
-                memo[s[left]] += 1
-                missing += 1
-                left += 1
-        return '' if min_right == float('inf') else s[min_left:min_right+1]
+                    min_left, min_right = left, right
+        return '' if min_right == float('inf') else  s[min_left:min_right]
 ```
 
 - Ruby
@@ -85,5 +79,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- two pointers go over once
-- Space: O(1) -- memo has a fixed length
+- Time: `O(n)` -- two pointers go over once
+- Space: `O(m)` -- m is a lenght of a pattern T
