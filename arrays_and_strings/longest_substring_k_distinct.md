@@ -18,7 +18,7 @@ Input: `s = 'aa', k = 1`
 
 Output: `2`
 
-Explanation: `'aaa'` is the longest (sub)string with 1 distinct characters.
+Explanation: `'aa'` is the longest (sub)string with 1 distinct characters.
 
 #### How to Solve
 
@@ -31,19 +31,18 @@ The solution saves the last occurence of each character in a Dictionary, `memo`.
 ```python
 class LongestSubstringKDistinct:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
-        left, max_length, memo = 0, 0, {}
+        left, max_len, memo = 0, 0, {}
         for i, char in enumerate(s):
             memo[char] = i
             if len(memo) > k:
                 left = min(memo.values())
                 del memo[s[left]]
                 left += 1
-            if i - left + 1 > max_length:
-                max_length = i - left + 1
-        return max_length
+            max_len = max(max_len, i-left+1)
+        return max_len
 ```
 
 #### Complexity
 
-- Time: O(n) -- n is a length of the given string
-- Space: O(n)
+- Time: `O(n)` -- n is a length of the given string
+- Space: `O(n)`
