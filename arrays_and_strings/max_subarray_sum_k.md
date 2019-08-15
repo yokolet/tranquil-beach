@@ -22,27 +22,26 @@ Explanation: `[-1, 2]` sums to 1 and is the longest.
 
 Use dictionary (Hash in Ruby) to save the state so far.
 The dictionary's key is a total sum from 0 to index i, and the value is its index. If duplicates are there, it doesn't update since the problem asks the longest subarray.
-If sum_sofar - k exists in the dictionary, the current index value sums up to k. So, check the length. This way, the longest subarray will be found.
+If accumulated sum - k exists in the dictionary, the current index value sums up to k. So, check the length.
+
+Tricky part of this problem is accumulated sum is 0. When the sum is zero, all index up to the current index should be included. For this reason, the dicionary should have `{0: -1}` in any case.
+
+This way, the longest subarray will be found.
 
 #### Solution
 - Python
 
 ```python
 class MaxSubarraySumK:
-    def maxSubArrayLen(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: int
-        """
-        max_length, sum_sofar, memo = 0, 0, {0: -1} # {sum: index}
+    def maxSubArrayLen(self, nums: 'List[int]', k: int) -> int:
+        max_len, acc, memo = 0, 0, {0: -1} # {sum: index}
         for i in range(len(nums)):
-            sum_sofar += nums[i]
-            if sum_sofar - k in memo:
-                max_length = max(max_length, i - memo[sum_sofar - k])
-            if sum_sofar not in memo:
-                memo[sum_sofar] = i
-        return max_length
+            acc += nums[i]
+            if acc - k in memo:
+                max_len = max(max_len, i - memo[acc - k])
+            if acc not in memo:
+                memo[acc] = i
+        return max_len
 ```
 
 - Ruby
@@ -67,5 +66,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(n)
+- Time: `O(n)`
+- Space: `O(n)`
