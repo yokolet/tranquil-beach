@@ -16,6 +16,7 @@
     * [Intersection of Two Arrays](arrays_and_strings/intersection.md)
     * [Intersection of Two Arrays with Duplicates](arrays_and_strings/two_arrays.md)
     * [Jewels in Stones](arrays_and_strings/jewels_in_stones.md)
+    * [Largest Rectangle in Histogram](arrays_and_strings/histogram.md)
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
     * [Longest Substring With At Most K Distinct Characters](arrays_and_strings/longest_substring_k_distinct.md)
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
