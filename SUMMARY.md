@@ -94,6 +94,7 @@
     * [Generate Parentheses](backtracking/generate_parentheses.md)
     * [Multiple Words Search](backtracking/word_search_filter.md)
     * [Next Permutation](backtracking/next_permutation.md)
+    * [N-Queens](backtracking/queens.md)
     * [Permutations](backtracking/permutations.md)
     * [Remove Invalid Parentheses](backtracking/invalid_parentheses.md)
     * [Subsets](backtracking/subsets.md)
