@@ -27,6 +27,7 @@
     * [Monotonic Array](arrays_and_strings/monotonic.md)
     * [Most Common Word](arrays_and_strings/most_common.md)
     * [Move Zeroes](arrays_and_strings/move_zeroes.md)
+    * [Multiply Strings](arrays_and_strings/multiply.md)
     * [Palindromic Substrings](arrays_and_strings/count_palindromes.md)
     * [Permutation in String](arrays_and_strings/permutation_check.md)
     * [Plus One](arrays_and_strings/plus_one.md)
