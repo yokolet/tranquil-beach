@@ -23,41 +23,27 @@ Then, just look at how many events overlaps.
 This solution doesn't look at sets of start/end time.
 
 If current start is less than current end, increament a count so far.
-Then, result (max count) is replaced by a bigger value of the result and the count so far.
-Lastely, move on to the next start time.
-
-If the current start is bigger than current end, decrement a count so far. Then, move on to the next end time.
-
+Then, result (max count) is replaced by a bigger value of the result and the count so far. Then, move on to the next start time.
+If the current start is bigger than current end, decrement the count so far. Then, move on to the next end time.
 In the end, the result value becomes the minimum rooms needed.
 
 #### Solution
 - Python
 
 ```python
-# Definition for an interval.
-class Interval:
-    def __init__(self, s=0, e=0):
-        self.start = s
-        self.end = e
-
 class MinRooms:
-    def minMeetingRooms(self, intervals):
-        """
-        :type intervals: List[Interval]
-        :rtype: int
-        """
-        starts = sorted([interval.start for interval in intervals])
-        ends = sorted([interval.end for interval in intervals])
+    def minMeetingRooms(self, intervals: 'List[List[int]]') -> int:
+        starts = sorted([s for s, e in intervals])
+        ends = sorted([e for s, e in intervals])
         i, j = 0, 0
-        result = 0
-        current = 0
-        while i < len(intervals):
+        result, count = 0, 0
+        while i < len(intervals) and j < len(intervals):
             if starts[i] < ends[j]:
-                current += 1
+                count += 1
                 i +=1
-                result = max(result, current)
+                result = max(result, count)
             else:
-                current -=1
+                count -=1
                 j +=1
         return result
 ```
