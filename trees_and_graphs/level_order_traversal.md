@@ -26,9 +26,9 @@ Output:
 #### How to Solve
 
 The solution takes BFS (breadth first search).
-In each level, the node value is added in order (left to right).
+In each level, the node value is added to the array from left to right.
 How to maintain queue is not the same in Python and Ruby code.
-Python uses an additional array, while Ruby uses shift method (pop equivalent). In both cases, the maximum size (worst case) of queue is the tree's widest width.
+Python uses an additional array, while Ruby uses shift method (pop equivalent). In both cases, the maximum size of the queue is the tree's widest width.
 
 #### Solution
 - Python
@@ -41,25 +41,19 @@ class TreeNode:
         self.right = None
 
 class LevelOrderTraversal:
-    def levelOrder(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[List[int]]
-        """
+    def levelOrder(self, root: TreeNode) -> 'List[List[int]]':
         if not root: return []
-        
         queue = [root]
         result = []
         while queue:
-            tmp = []
             result.append([])
-            for q in queue:
-                result[-1].append(q.val)
-                if q.left != None:
-                    tmp.append(q.left)
-                if q.right != None:
-                    tmp.append(q.right)
-            queue = tmp
+            for _ in range(len(queue)):
+                cur = queue.pop(0)
+                result[-1].append(cur.val)
+                if cur.left:
+                    queue.append(cur.left)
+                if cur.right:
+                    queue.append(cur.right)
         return result
 ```
 
@@ -95,5 +89,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(w) -- w is width of a binary tree
+- Time: `O(n)`
+- Space: `O(w)` -- w is width of a binary tree
