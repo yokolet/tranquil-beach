@@ -9,6 +9,7 @@
     * [3 Sum](arrays_and_strings/3-sum.md)
     * [Add Binary](arrays_and_strings/add_binary.md)
     * [Container with Most Water](arrays_and_strings/container_water.md)
+    * [Count and Say](arrays_and_strings/compression.md)
     * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Find the Closest Palindrome](arrays_and_strings/closest_palindrome.md)
     * [Game of Life](arrays_and_strings/game_of_life.md)
