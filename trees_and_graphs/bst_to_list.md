@@ -29,15 +29,15 @@ v ->   ->   ->   ->
 
 #### How to Solve
 
-Like other binary tree problems, the first step is to go deeper to the leaf node.
-When coming back to previous stack, it returns both left and right children. So, four children will be returned -- left of left child (ll), right of left child (lr), left of right child (rl) and right of right child (rr).
+The recursive approach is a good one here. Like other binary tree problems, the first step is to go deeper to the leaf node.
+When coming back to previous stack, it returns both left and right children. In total, four children will be returned -- left of left child (`ll`), right of left child (`lr`), left of right child (`rl`) and right of right child (`rr`).
 
-The predecessor is the right most child of left subtree (lr).
-The successor is the left most child of right subtree (rl).
+The predecessor is the left subtree's right most child(`lr`).
+The successor is the right subtree's left most child(`rl`).
 So, `root.left = lr, root.right = rl` are processed.
 To make bidirectional, this node is set to lr.right and rl.left. `if lr: lr.right = root, if rl: rl.left = root`.
 
-When all recursive call is done and comes back to the top stack, it returns the left most and right most nodes of the tree. The problem asks a circular linked list. Lastly, the far right and left are connected.
+When all recursive call is done and comes back to the top stack, it returns the left most and right most nodes of the tree. The problem asks a circular linked list. Lastly, the far right and far left nodes are connected.
 
 #### Solution
 - Python
@@ -50,11 +50,7 @@ class TreeNode:
         self.right = None
 
 class BSTToList:
-    def treeToDoublyList(self, root):
-        """
-        :type root: Node
-        :rtype: Node
-        """
+    def treeToDoublyList(self, root: TreeNode) -> TreeNode:
         def walk(root):
             if not root: return None, None
             if (not root.left) and (not root.right): return root, root
@@ -78,5 +74,5 @@ class BSTToList:
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(h) -- h is a height of the tree
+- Time: `O(n)`
+- Space: `O(h)` -- h is a height of the tree
