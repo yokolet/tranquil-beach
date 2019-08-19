@@ -107,6 +107,7 @@
 * Sorting and Searching
     * [Accounts Merge](sorting_searching/account_merge.md)
     * [Find Peak Element](sorting_searching/peak_element.md)
+    * [Interval List Intersections](sorting_searching/interval_intersection.md)
     * [K Closest Points to Origin](sorting_searching/k_closest.md)
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Median of Two Sorted Arrays](sorting_searching/sorted_arrays_median.md)
