@@ -105,6 +105,7 @@
     * [Unique Paths with Obstacles to Cover All Squares](backtracking/unique_paths_obstacles_ham.md)
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
+    * [Accounts Merge](sorting_searching/account_merge.md)
     * [Find Peak Element](sorting_searching/peak_element.md)
     * [K Closest Points to Origin](sorting_searching/k_closest.md)
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
