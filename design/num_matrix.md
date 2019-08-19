@@ -40,14 +40,11 @@ For easiness, one extra row and col were added and initialized by zero. The indi
 class NumMatrix:
     def __init__(self, matrix: 'List[List[int]]'):
         def sum_matrix():
-            m = len(matrix)
-            n = len(matrix[0]) if matrix else 0
-            
+            m, n = len(matrix), len(matrix[0]) if matrix else 0
             result = [[0] * (n + 1) for _ in range(m + 1)]
             for i in range(m):
                 for j in range(n):
                     result[i + 1][j + 1] = result[i][j + 1] + result[i + 1][j] - result[i][j] + matrix[i][j]
-            print(result)
             return result
         self.acc_sum = sum_matrix()
 
@@ -56,7 +53,7 @@ class NumMatrix:
         result -= self.acc_sum[row1][col2+1] # upper
         result -= self.acc_sum[row2+1][col1] # left
         result += self.acc_sum[row1][col1]   # adds doubly subtracted area
-        return resul
+        return result
 ```
 
 - Ruby
@@ -95,5 +92,5 @@ end
 ```
 
 #### Complexity
-- Time: creation: O(m*n) -- m is a length of row, n is a length of col, query: O(1)
-- Space: O(m*n)
+- Time: creation: `O(m*n)` -- m is a length of row, n is a length of col, query: `O(1)`
+- Space: `O(m*n)`
