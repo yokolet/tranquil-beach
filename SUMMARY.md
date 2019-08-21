@@ -86,6 +86,7 @@
     * [Island Perimeter](trees_and_graphs/perimeter.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [The Maze](trees_and_graphs/maze.md)
+    * [Walls and Gates](trees_and_graphs/nearest_gate.md)
     * [Number of Islands](trees_and_graphs/number_of_islands.md)
     * [Reconstruct Itinerary](trees_and_graphs/itinerary.md)
     * [Shortest Distance from All Buildings](trees_and_graphs/shortest_distance.md)
