@@ -4,7 +4,7 @@
 
 Given a binary tree, check if it is a complete binary tree.
 
-Definition ([Wikipedia: Binary tree](https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees))
+- Definition ([Wikipedia: Binary tree](https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees))
 
     In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes at the last level h.
 
@@ -71,5 +71,5 @@ class CompleteBinaryTree:
 
 #### Complexity
 
-- Time: O(n) -- n is a number of nodes
-- Space: O(h) -- n is a height of a tree
+- Time: `O(n)` -- n is a number of nodes
+- Space: `O(h)` -- n is a height of a tree
