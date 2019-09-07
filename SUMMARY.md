@@ -155,6 +155,7 @@
     * [Roman to Integer](other/roman_to_integer.md)
     * [Sqrt(x)](other/sqrt_approx.md)
     * [Strobogrammatic Number](other/strobogrammatic.md)
+    * [Unique Binary Search Trees](other/catalan_number.md)
 * Design
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [Binary Search Tree Iterator](design/bst_iterator.md)
