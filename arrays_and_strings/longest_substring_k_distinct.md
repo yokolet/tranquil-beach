@@ -22,7 +22,9 @@ Explanation: `'aa'` is the longest (sub)string with 1 distinct characters.
 
 #### How to Solve
 
-The solution saves the last occurence of each character in a Dictionary, `memo`. When the size of the `memo` exceeds the given k, find the min index in the `memo` as the left pointer. Not to recount the min index char, delete it from the `memo`. Then, compare max_length.
+The solution saves the last occurence of each character in a dictionary, `memo`. When the size of the `memo` exceeds the given k, find the min index in the `memo` as the left pointer. Not to recount the min index char, delete it from the `memo`. Then, compare max_length.
+
+Similar problem: [Fruit Into Baskdets](fruit_baskets.md)
 
 #### Solution
 

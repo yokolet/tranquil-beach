@@ -12,6 +12,7 @@
     * [Count and Say](arrays_and_strings/compression.md)
     * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Find the Closest Palindrome](arrays_and_strings/closest_palindrome.md)
+    * [Fruit Into Baskets](arrays_and_strings/fruit_baskets.md)
     * [Game of Life](arrays_and_strings/game_of_life.md)
     * [Group Anagrams](arrays_and_strings/group_anagrams.md)
     * [Intersection of Two Arrays](arrays_and_strings/intersection.md)
