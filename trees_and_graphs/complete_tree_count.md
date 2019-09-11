@@ -6,7 +6,7 @@ Given a complete binary tree, find how many node are in the tree.
 
 - Definition of a complete binary tree
 
-    In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+    In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2^h nodes inclusive at the last level h.
     (Wikipedia: [Types of Binary Tree](https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees))
 
 #### Example
