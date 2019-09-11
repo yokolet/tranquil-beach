@@ -111,6 +111,7 @@
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
     * [Accounts Merge](sorting_searching/account_merge.md)
+    * [Campus Bikes](sorting_searching/campus_bikes.md)
     * [Find Peak Element](sorting_searching/peak_element.md)
     * [Friends Of Appropriate Ages](sorting_searching/friend_request.md)
     * [Interval List Intersections](sorting_searching/interval_intersection.md)
