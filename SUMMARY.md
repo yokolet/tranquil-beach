@@ -127,6 +127,7 @@
     * [Search in Rotated Sorted Array with Duplicates](sorting_searching/rotated_sorted_array_with_dup.md)
     * [Smallest Range](sorting_searching/min_range.md)
     * [Snakes and Ladders](sorting_searching/snakes_ladders.md)
+    * [Split Array Largest Sum](sorting_searching/split_array.md)
     * [Verifying an Alien Dictionary](sorting_searching/alien_sort.md)
 * Dynamic Programming
     * [Arithmetic Slice](dp/arithmetic_slice.md)
