@@ -55,10 +55,12 @@ day   packages
 #### How to Solve
 
 The binary search is an approach taken here.
-The capacity exists between maximum weight (or average weight if average is bigger) and sum of all weights. Initial low and high values are those two. Summing up weights while the sum doesn't exceed the middle value.
+The optimal capacity exists between maximum weight (or average weight if average is bigger) and sum of all weights. Initial low and high values are those two. Summing up weights while the sum doesn't exceed the middle value.
 If exceeds, count up the days and set the sum to the weight of that point.
 In the end, if days exceeds the given value `D`, the middle value is considered small. So, set the low as middle value + 1. If the days are less than or equal to the `D`, the middle value is considered big.
 So, set the high as middle value. 
+
+Similar problem: [Split Array Largest Sum](split_array.md)
 
 #### Solution
 
@@ -86,5 +88,5 @@ class PackageShipping:
 
 #### Complexity
 
-- Time: `O(log(n))` -- n is the length of maximum weight (or average weight if the average is bigger) to sum of weights
+- Time: `O(mlog(n))` -- n is the length of maximum weight (or average weight if the average is bigger) to sum of weights. m is a length of the given weight list.
 - Space: `O(1)`
