@@ -113,6 +113,7 @@
 * Sorting and Searching
     * [Accounts Merge](sorting_searching/account_merge.md)
     * [Campus Bikes](sorting_searching/campus_bikes.md)
+    * [Capacity to Ship Packages Within D Days](sorting_searching/package_shipping.md)
     * [Find Peak Element](sorting_searching/peak_element.md)
     * [Friends Of Appropriate Ages](sorting_searching/friend_request.md)
     * [Interval List Intersections](sorting_searching/interval_intersection.md)
