@@ -50,8 +50,8 @@ class GameOfLife:
         """
         Do not return anything, modify board in-place instead.
         """
-        m = len(board)
-        n = len(board[0])
+        m, n = len(board), len(board[0])
+
         def calc(i, j):
             neighbors = [
                 [i-1, j-1],[i-1,j],[i-1,j+1],
@@ -63,6 +63,7 @@ class GameOfLife:
                 if 0 <= r < m and 0 <= c < n:
                     sum += (board[r][c] & 1)
             return sum
+
         for i in range(m):
             for j in range(n):
                 status = calc(i, j)

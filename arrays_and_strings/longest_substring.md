@@ -27,7 +27,7 @@ Explanation: "wke" is the longest substring.
 
 #### How to Solve
 
-The solution saves the last occurence of each character in a Dictionary (Hash for Ruby). When a current character is found in a dictionary, it updates the last non-duplicate index. The max_length is updated comparing the last non-dupliate length at index i.
+The solution saves the last occurence of each character in a Dictionary (Hash for Ruby). When a current character is found in a dictionary, it updates the last non-duplicate index. The max length is updated comparing the last non-dupliate length at index i.
 
 #### Solution
 - Python
@@ -35,13 +35,13 @@ The solution saves the last occurence of each character in a Dictionary (Hash fo
 ```python
 class LongestSubstring:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        left, max_length, memo = 0, 0, {} # char to index map
+        left, max_len, memo = 0, 0, {} # char to index map
         for i in range(len(s)):
             if s[i] in memo:
                 left = max(left, memo[s[i]])    
-            max_length = max(max_length, i - left + 1)
+            max_len = max(max_len, i - left + 1)
             memo[s[i]] = i + 1
-        return max_length
+        return max_len
 ```
 
 - Ruby

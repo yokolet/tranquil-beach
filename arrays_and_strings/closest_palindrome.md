@@ -45,14 +45,14 @@ class ClosestPalindrome:
                 closests.add(int(left + left[::-1]))
             else:
                 closests.add(int(left + left[:-1][::-1]))
-        num, minDiff = int(n), float('inf')
+        num, min_diff = int(n), float('inf')
         if num in closests: closests.remove(num)
         for v in closests:
             diff = abs(v - num)
-            if diff < minDiff:
-                minDiff = diff
+            if diff < min_diff:
+                min_diff = diff
                 result = v
-            elif diff == minDiff:
+            elif diff == min_diff:
                 result = min(result, v)
         return str(result)
 ```

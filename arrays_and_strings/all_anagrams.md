@@ -33,7 +33,7 @@ The sliding window is used to solve this problem.
 
 The first step is to find a character to count mapping for the p. The second step is iterating all characters in the string.
 
-While iterating, it maintains a current character to count mapping for the s, and left pointer. When i - left + 1 is the same as the length of pattern, check target and counts. If those are the same, an anagrams is found.
+While iterating the string `s`, it maintains a current character to count mapping for the `s`, and left pointer. When i - left + 1 is the same as the length of pattern, check target and counts. If those are the same, an anagrams is found.
 
 
 #### Solution
