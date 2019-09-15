@@ -38,11 +38,7 @@ In the end, check stack is empty. If yes, the string is a valid parenthese. If n
 
 ```python
 class ValidParentheses:
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+    def isValid(self, s: str) -> bool:
         stack = []
         pairs = {
             ')': '(',

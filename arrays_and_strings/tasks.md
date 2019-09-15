@@ -36,12 +36,7 @@ The intervals contain at least, `max_counts * same_count`. Between tasks, there 
 from collections import Counter
 
 class Tasks:
-    def leastInterval(self, tasks, n):
-        """
-        :type tasks: List[str]
-        :type n: int
-        :rtype: int
-        """
+    def leastInterval(self, tasks: 'List[str]', n: int) -> int:
         counts = Counter(tasks).most_common()
         maxCounts, sameCounts = counts[0][1], 0
         for _, v in counts:

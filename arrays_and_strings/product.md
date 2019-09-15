@@ -18,11 +18,7 @@ Iterate the given array twice. The first step computes `1, 1 * X0, 1 * X0 * X1, 
 
 ```python
 class Product:
-    def productExceptSelf(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
+    def productExceptSelf(self, nums: 'List[int]') -> 'List[int]':
         if not nums: return []
         acc, result = 1, []
         for n in nums:

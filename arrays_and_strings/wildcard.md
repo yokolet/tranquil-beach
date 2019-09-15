@@ -56,12 +56,7 @@ When `"*"` comes, it matches any length including zero, so save the indices as e
 
 ```python
 class Wildcard:
-    def isMatch(self, s, p):
-        """
-        :type s: str
-        :type p: str
-        :rtype: bool
-        """
+    def isMatch(self, s: str, p: str) -> bool:
         i, j, star_i, star_j = 0, 0, None, None
         while i < len(s):
             if j < len(p) and p[j] == '*':
