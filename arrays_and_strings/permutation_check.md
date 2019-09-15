@@ -27,20 +27,19 @@ This problem asks whether an anagram of s1 exists in s2 or not. The first step i
 - Python
 
 ```python
+from collections import defaultdict
+
 class PermutationCheck:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        target = {}
+        target = defaultdict(int)
         for c in s1:
-            if c in target:
-                target[c] += 1
-            else:
-                target[c] = 1
-        left, counts = 0, {}
+            target[c] += 1
+        left, counts = 0, defaultdict(int)
         for i in range(len(s2)):
             if s2[i] not in target:
-                counts, left = {}, i + 1
+                counts, left = defaultdict(int), i + 1
                 continue
-            counts[s2[i]] = counts.get(s2[i], 0) + 1
+            counts[s2[i]] += 1
             if i-left+1 == len(s1):
                 if counts == target: return True
                 counts[s2[left]] -= 1

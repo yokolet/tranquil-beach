@@ -2,7 +2,7 @@
 
 #### Description
 
-Given two strings `s` and `t`, find whether those are on edit distance apart each other or not.
+Given two strings `s` and `t`, find whether those are one edit distance apart each other or not.
 
 - Definition
 
