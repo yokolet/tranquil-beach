@@ -24,23 +24,18 @@ class ListNode:
         self.next = None
 
 class NthNodeFromEnd:
-    def removeNthFromEnd(self, head, n):
-        """
-        :type head: ListNode
-        :type n: int
-        :rtype: ListNode
-        """
-        root = ListNode(None)
-        root.next = head
-        fast = root
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        dummy = ListNode(None)
+        dummy.next = head
+        fast = dummy
         for _ in range(n):
             fast = fast.next
-        cur = root
+        cur = dummy
         while fast.next:
             fast = fast.next
             cur = cur.next
         cur.next = cur.next.next
-        return root.next
+        return dummy.next
 ```
 
 - Ruby
@@ -74,5 +69,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1)
+- Time: `O(n)` -- n is a length of a linked list
+- Space: `O(1)`
