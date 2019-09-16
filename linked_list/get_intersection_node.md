@@ -30,12 +30,8 @@ Output: `None`
 
 #### How to Solve
 
-An easy way is to shift a starting node so that
-two linked lists have the same length.
-Then, use two pointers -- one for each -- and move two pointers forward at the same time. 
-If the lists intersect, two pointers come to the same node.
-If the lists don't intersect, two pointers come to None.
-Either the intersection exists or not, one of the pointer's value is the answer.
+The solution saves all nodes of the first linked list in the `set`. While going over the second linked list, if the node is in the `set`, the intersection is found.
+When the second traversal comes to the end, and still the same node is not found, there's no intersection.
 
 #### Solution
 - Python
@@ -47,40 +43,19 @@ class ListNode:
         self.next = None
 
 class Intersection:
-    def getIntersectionNode(self, headA, headB):
-        """
-        :type head1, head1: ListNode
-        :rtype: ListNode
-        """
-        if headA is None or headB is None:
-            return None
-        
-        curA, curB, lenA, lenB = headA, headB, 0, 0
-        while curA is not None:
-            lenA += 1
-            curA = curA.next
-        while curB is not None:
-            lenB += 1
-            curB = curB.next
-        
-        curA, curB = headA, headB
-        if lenA > lenB:
-            for _ in range(lenA-lenB):
-                curA = curA.next
-        elif lenB > lenA:
-            for _ in range(lenB-lenA):
-                curB = curB.next
-        
-        while curA != curB:
-            curA = curA.next
-            curB = curB.next
-        return curA
-```
-
-```ruby
-
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        if not headA or not headB: return None
+        seen = set()
+        while headA:
+            seen.add(headA)
+            headA = headA.next
+        while headB:
+            if headB in seen:
+                return headB
+            headB = headB.next
+        return None
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1)
+- Time: `O(m+n)` -- m, n are lengths of linked list A and B respectively.
+- Space: `O(m)`
