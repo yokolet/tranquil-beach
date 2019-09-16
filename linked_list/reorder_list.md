@@ -39,20 +39,12 @@ class ReorderList:
         slow, fast = head, head
         while fast and fast.next: # find half point
             slow, fast = slow.next, fast.next.next
-        rev, cur, tmp = None, slow.next, None
-        slow.next = None
-        while cur: # reverse last half
-            tmp = cur.next
-            cur.next = rev
-            rev = cur
-            cur = tmp
+        slow.next, slow, rev = None, slow.next, None
+        while slow:
+            rev, rev.next, slow = slow, rev, slow.next
         cur = head
-        while rev:
-            tmp, tmp2 = cur.next, rev.next
-            cur.next = rev
-            rev.next = tmp
-            cur = tmp
-            rev = tmp2
+        while head and rev:
+            head.next, rev.next, head, rev = rev, head.next, head.next, rev.next
 ```
 
 - Ruby
@@ -96,5 +88,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space:  O(1)
+- Time: `O(n)` -- n is a length of a linked list
+- Space:  `O(1)`
