@@ -70,5 +70,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- for Deterministic Finite Automata complied regex
-- Space: O(2^m) -- m is regular expression size
+- Time: `O(n)` -- for Deterministic Finite Automata complied regex
+- Space: `O(2^m)` -- m is regular expression size

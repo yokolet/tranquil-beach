@@ -92,5 +92,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- n is a length of given string
-- Space: O(n)
+- Time: `O(n)` -- n is a length of given string
+- Space: `O(n)`

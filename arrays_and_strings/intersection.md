@@ -43,5 +43,5 @@ end
 ```
 
 #### Complexity
-- Time: O(m+n) -- m,n are lengths of nums1, nums2
-- Space: O(m+n)
+- Time: `O(m+n)` -- m,n are lengths of nums1, nums2
+- Space: `O(m+n)`

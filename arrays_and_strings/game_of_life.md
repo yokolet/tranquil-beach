@@ -121,5 +121,5 @@ end
 ```
 
 #### Complexity
-- Time: O(m*n) -- board size is m rows and n cols
-- Space: O(1)
+- Time: `O(mn)` -- board size is m rows and n cols
+- Space: `O(1)`

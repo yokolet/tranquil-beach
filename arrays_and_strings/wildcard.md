@@ -2,7 +2,7 @@
 
 #### Description
 
-Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for `"?"` and `"*"`.
+Given an input string `s` and a pattern `p`, implement wildcard pattern matching with support for `"?"` and `"*"`.
 
 - `"?"` Matches any single character.
 - `"*"` Matches any sequence of characters (including the empty sequence).
@@ -16,7 +16,7 @@ Input: `s = "aa"`, `p = "a"`
 
 Output: False
 
-Explanation: pattern`"a"` only matches a single char "a"
+Explanation: pattern`"a"` only matches a single char `"a"`
 
 #### Example 2
 Input: `s = "aa"`, `p = "*"`
@@ -30,21 +30,21 @@ Input: `s = "cb"`, `p = "?a"`
 
 Output: False
 
-Explanation: `"?a"`matches any single character followed by a single char "a"
+Explanation: `"?a"`matches any single character followed by a single char `"a"`
 
 #### Example 4
 Input: `s = "adceb"`, `p = "*a*b"`
 
 Output: True
 
-Explanation: `"*"` matches any length including zero, so `"a*b"` matches "a", "dce", and "b"
+Explanation: `"*"` matches any length including zero, so `"a*b"` matches `"a"`, `"dce"`, and `"b"`
 
 #### Example 5
 Input: `s = "acdcb"`, `p = "a*c?b"`
 
 Output: False
 
-Explanation: `"a*c?"` matches "acd", but next "c" doesn't match.
+Explanation: `"a*c?"` matches `"acd"`, but next `"c"` doesn't match.
 
 #### How to Solve
 
@@ -105,5 +105,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n + m) -- n, m are the lengths of s, p
-- Space: O(1)
+- Time: `O(m+n)` -- m,n are the lengths of s, p
+- Space: `O(1)`

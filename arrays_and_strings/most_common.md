@@ -55,5 +55,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n+m) -- n is a length of words in paragraph, m is a length of banned
-- Space: O(n)
+- Time: `O(m+n)` -- m, n are lengths of banned and words in paragraph respectively
+- Space: `O(n)`

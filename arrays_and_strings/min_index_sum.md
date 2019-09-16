@@ -89,5 +89,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- n is a length of first list
-- Space: O(n)
+- Time: `O(n)` -- n is a length of first list
+- Space: `O(n)`

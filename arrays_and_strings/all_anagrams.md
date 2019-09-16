@@ -91,5 +91,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n + m) -- n is a lenght of s, m is a length of p
-- Space: O(n)
+- Time: `O(m+n)` -- m, n are lenghts of s, p respectively
+- Space: `O(m+n)`

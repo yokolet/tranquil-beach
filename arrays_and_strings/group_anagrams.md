@@ -45,5 +45,5 @@ class GroupAnagrams:
 
 #### Complexity
 
-- Time: `O(n * k)` -- n, k are lengths of the given strings and each string respectively.
+- Time: `O(nk)` -- n, k are lengths of the given strings and each string respectively.
 - Space: `O(m)` -- m is a length of anagrams

@@ -38,5 +38,5 @@ class JewelsInStones:
 
 #### Complexity
 
-- Time: O(n) -- n is lengths of S
-- Space: O(1)
+- Time: `O(n)` -- n is lengths of S
+- Space: `O(1)`

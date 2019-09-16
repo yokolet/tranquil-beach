@@ -49,5 +49,5 @@ class PermutationCheck:
 
 #### Complexity
 
-- Time: `O(m + n)` -- m, n are the lengths of s1 and s2
+- Time: `O(m+n)` -- m, n are the lengths of s1 and s2
 - Space: `O(m)`

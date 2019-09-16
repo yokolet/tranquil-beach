@@ -63,5 +63,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1) -- auxiliary map will have some fixed number of keys, a-z, A-Z, 0-9, space or such.
+- Time: `O(n)`
+- Space: `O(1)` -- auxiliary map will have some fixed number of keys, a-z, A-Z, 0-9, space or such.

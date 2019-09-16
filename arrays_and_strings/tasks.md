@@ -71,5 +71,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1) -- the size of `counts` is at most 26
+- Time:`O(n)`
+- Space: `O(1)` -- the size of `counts` is at most 26

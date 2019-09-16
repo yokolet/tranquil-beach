@@ -85,5 +85,5 @@ end
 ```
 
 #### Complexity
-- Time: O(1) -- O(2^8) which is constant, so O(1)
-- Spaces: O(1) -- O((2^8)*8), which is constant, so O(1)
+- Time: `O(1)` -- O(2^8) which is constant, so O(1)
+- Spaces: `O(1)` -- O((2^8)*8), which is constant, so O(1)

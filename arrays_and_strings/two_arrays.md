@@ -28,12 +28,7 @@ Use dictionary (Hash in Ruby) to save counts of the longer array. While iteratin
 from collections import defaultdict
 
 class TwoArrays:
-    def intersect(self, nums1, nums2):
-        """
-        :type nums1: List[int]
-        :type nums2: List[int]
-        :rtype: List[int]
-        """
+    def intersect(self, nums1: 'List[int]', nums2: 'List[int]') -> 'List[int]':
         memo, result = defaultdict(int), []
         if len(nums2) > len(nums1):
             nums1, nums2 = nums2, nums1
@@ -70,5 +65,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n + m) - n, m are the lengths of two arrays
-- Space: O(n) - n is a longer length of two arrays.
+- Time: `O(m+n)` - m, n are the lengths of two arrays
+- Space: `O(n)` - n is a longer length of two arrays.
