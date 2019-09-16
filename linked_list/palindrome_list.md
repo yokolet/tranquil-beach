@@ -73,5 +73,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1)
+- Time: `O(n)` -- n is a length of a linked list
+- Space: `O(1)`

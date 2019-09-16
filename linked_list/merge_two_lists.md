@@ -37,8 +37,8 @@ class MergeTwoLists:
 
 #### Complexity 1
 
-- Time: O(m+n) -- m, n are lengths of l1, l2 respectively
-- Space: O(1)
+- Time: `O(m+n)` -- m, n are lengths of l1, l2 respectively
+- Space: `O(1)`
 
 #### Solution 2
 
@@ -64,5 +64,5 @@ class MergeTwoLists:
 
 #### Complexity 2
 
-- Time: O(m+n) -- m, n are lengths of l1, l2 respectively
-- Space: O(1)
+- Time: `O(m+n)` -- m, n are lengths of l1, l2 respectively
+- Space: `O(1)`
