@@ -26,13 +26,9 @@ Sort values and set those to the merged list one by one.
 
 ```python
 class MergeLists:
-    def mergeKLists(self, lists):
-        """
-        :type lists: List[ListNode]
-        :rtype: ListNode
-        """
-        head = ListNode(None)
-        cur = head
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        dummy = ListNode(None)
+        cur = dummy
         values = []
         for list_ in lists:
             while list_:
@@ -40,11 +36,11 @@ class MergeLists:
                 values.append(list_.val)
                 list_ = list_.next
                 cur = cur.next
-        cur = head.next
+        cur = dummy.next
         for v in sorted(values):
             cur.val = v
             cur = cur.next
-        return head.next
+        return dummy.next
 ```
 
 - Ruby
@@ -74,5 +70,5 @@ end
 ```
 
 #### Complexity
-- Time: O(nlog(n)) -- n is the total number of list nodes
-- Space: O(n)
+- Time: `O(nlog(n))` -- n is the total number of list nodes
+- Space: `O(n)`
