@@ -24,9 +24,9 @@ random  2   ---> 2 -+
 
 #### How to Solve
 
-For the first traverse, create linked list with random pointer to None. While creating a new node, save it map for the second traverse.
-
-For the second traverse, assign random pointer.
+The solution uses Python's defaultdict as a cache.
+The default value is an instance of `Node`.
+While traversing the given linked list, a pair of the cur node as a key, cur node's value/ref to next and random as a value will be saved in the cache. It is a defaultdict, so the referenced next and random nodes are created for the first reference. For some nodes, actual values for copied node are filled out later. In any case, when the traversal ends, all values are set in the copied linked list.
 
 #### Solution
 - Python
@@ -39,28 +39,21 @@ class Node:
         self.next = next
         self.random = random
 
+from collections import defaultdict
+
 class CopyWithRandom:
-    def copyRandomList(self, head: 'Node') -> 'Node':
-        head2 = Node(None, None, None)
+    def copyRandomList(self, head: Node) -> Node:
+        cache = defaultdict(lambda: Node(None, None, None))
+        cache[None] = None  # to avoid if statement in the loop
         cur = head
-        cache = {} # (key, value) = (cur, ref), copied instance
-        prev = head2
         while cur:
-            n = Node(cur.val, None, None)
-            prev.next = n
-            cache[cur.val] = n
-            prev = n
+            cache[cur].val = cur.val
+            cache[cur].next = cache[cur.next]
+            cache[cur].random = cache[cur.random]
             cur = cur.next
-        cur = head
-        cur2 = head2.next
-        while cur:
-            if cur.random:
-                cur2.random = cache[cur.random.val]
-            cur = cur.next
-            cur2 = cur2.next
-        return head2.next
+        return cache[head]
 ```
 
 #### Complaxity
-- Time: O(n)
-- Space: O(n)
+- Time: `O(n)` -- n is a length of a linked list
+- Space: `O(n)`
