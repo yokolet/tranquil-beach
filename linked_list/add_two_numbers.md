@@ -30,8 +30,7 @@ The remainder goes to the current node value.
 A tricky part is lengths of two linked list are not the same.
 The solution here doesn't create a new linked list
 Instead, the value of the first linked list will be replaced by the remainder.
-When the first linked list is shorter than the second, the pointer
-goes to the second linked list. In this case, the shape looks like two linked lists are merged at some node.
+When the first linked list is shorter than the second, the pointer goes to the second linked list. In this case, the shape looks like that two linked lists are merged at some node.
 
 #### Solution
 - Python
@@ -43,29 +42,21 @@ class ListNode:
         self.next = None
 
 class TwoNumbers:
-    def addTwoNumbers(self, l1, l2):
-        '''
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        '''
-        if not l1 or not l2:
-            return l1 or l2
-        head = l1
-        carry = 0
+    class TwoNumbers:
+     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if not l1 or not l2: return l1 or l2
+        head, carry = l1, 0
         while l1 and l2:
-            carry, rem = divmod(l1.val + l2.val + carry, 10)
+            carry, rem = divmod(carry + l1.val + l2.val, 10)
             l1.val = rem
             cur, l1, l2 = l1, l1.next, l2.next
         cur.next = l1 or l2
-        while carry != 0:
-            if not cur.next:
-                cur.next = ListNode(carry)
-                break
-            else:
-                carry, rem = divmod(cur.next.val + carry, 10)
-                cur.next.val = rem
-                cur = cur.next
+        while carry and cur.next:
+            carry, rem = divmod(carry + cur.next.val, 10)
+            cur.next.val = rem
+            cur = cur.next
+        if carry:
+            cur.next = ListNode(carry)
         return head
 ```
 
@@ -109,5 +100,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n) -- n is the length of longer linked list
-- Space: O(1)
+- Time: `O(n)` -- n is the length of longer linked list
+- Space: `O(1)`
