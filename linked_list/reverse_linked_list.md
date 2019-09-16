@@ -11,8 +11,9 @@ Output: `5->4->3->2->1->None`
 
 #### How to Solve
 
-While iterating to the end, the cur pointer keeps tracking original linked list. The prev pointer keeps tracking a new linked list. The line, `cur.next = prev`, saves a current node. 
-The line, `prev = cur`, moves the new linked list pointer forward.
+While iterating to the end, the cur pointer keeps tracking original linked list. The rev pointer keeps tracking a new linked list. The assignment, `rev = cur`, saves a current node as a reverse head.
+The next assignment, `rev.next = rev`, moves the reverse pointer forward.
+The last assignment, `cur = cur.next`, moves the original linked list pointer forward.
 
 #### Solution
 - Python
@@ -24,19 +25,11 @@ class ListNode:
         self.next = None
 
 class ReverseLinkedList:
-    def reverseList(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        if not head: return head
-        prev, cur, next_ = None, head, None
+    def reverseList(self, head: ListNode) -> ListNode:
+        cur, rev = head, None
         while cur:
-            next_ = cur.next
-            cur.next = prev
-            prev = cur
-            cur = next_
-        return prev
+            rev, rev.next, cur = cur, rev, cur.next
+        return rev
 ```
 
 - Ruby
@@ -55,17 +48,17 @@ end
 # @return {ListNode}
 def reverse_list(head)
   return head if head.nil?
-  prev, cur = nil, head
+  rev, cur = nil, head
   while cur
     next_ = cur.next
-    cur.next = prev
-    prev = cur
+    cur.next = rev
+    rev = cur
     cur = next_
   end
-  prev
+  rev
 end
 ```
 
 #### Complexity
-- Time: O(n)
-- Space: O(1)
+- Time: `O(n)`  -- n is a lenght of the linked list
+- Space: `O(1)`
