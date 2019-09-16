@@ -21,9 +21,8 @@ Output: false
 Make all characters to lower case then delete characters which are not a to z or 0 to 9. Lastly, check the string is a palindrome.
 
 Python has a nice built-in function -- `str.translate` and `str.maketrans`, which runs faster than regular expression.
+The second Python solution uses this function.
 The first line in the solution, `str.maketrans('', '', string.punctuation + ' ')`, defines no substitution but deletetion of punctuations and spaces. When the rule is fed to `str.translate`, the string has only a-z and 0-9.
-
-The second Python solution doesn't use the built-in function. It has the list of ignore characters. Those characters in the string are replaced by an empty string. At the end, check the string is palindrome or not.
 
 Ruby solution uses regular expression which runs fast.
 Like Python code, it makes all characters to lower case then deletes characters other than a to z or 0 to 9.
@@ -32,27 +31,21 @@ Like Python code, it makes all characters to lower case then deletes characters 
 - Python
 
 ```python
-import string
+import re
 
 class ValidPalindrome:
-    def isPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        translator = str.maketrans('', '', string.punctuation + ' ')
-        s = s.lower().translate(translator)
+    def isPalindrome(self, s: 'str') -> 'bool':
+        s = re.sub(r'[^a-z0-9]', '', s.lower())
         return s == s[::-1]
 ```
 
 ```python
+import string
+
 class ValidPalindrome:
     def isPalindrome(self, s: str) -> bool:
-        ignore_chars = ',./<>?;\':"[]\{}|`~!@#$%^&*()-=_+ '
-        s = s.lower()
-        for char in ignore_chars:
-            if char in s:
-                s = s.replace(char,'')
+        translator = str.maketrans('', '', string.punctuation + ' ')
+        s = s.lower().translate(translator)
         return s == s[::-1]
 ```
 
