@@ -2,14 +2,14 @@
 
 #### Description
 
-Given an input string (s) and a pattern (p), implement regular expression matching with support for `"."` and `"*"`.
+Given an input string `s` and a pattern `p`, implement regular expression matching with support for `"."` and `"*"`.
 The matching should cover the entire input string (not partial).
 
 - `"."` Matches any single character.
 - `"*"` Matches zero or more of the preceding element.
 
-s could be empty and contains only lowercase letters a-z.
-p could be empty and contains only lowercase letters a-z, and characters like `"."` or `"*"`.
+`s` could be empty and contains only lowercase letters a-z.
+`p` could be empty and contains only lowercase letters a-z, and characters like `"."` or `"*"`.
 
 #### Example 1
 Input: `s = "aa"`, `p = "a"`
@@ -49,9 +49,8 @@ Explanation: `p = "mis*is*p*."` doesn't match the third `"i"`, so the pattern is
 #### How to Solve
 
 The solution here is a dynamic programming approach by recursion.
-It saves the previous state in a dictionary whose key is indices of s and p, `(i, j)`. The value is the result of matching at `(i, j)` - boolean.
-Only when the j-th pattern is `"*"`, the index `j` shifts more than 1, while the index `i` may shift one.  
-Other cases increment two indices by one.
+It saves the previous state in a dictionary whose key is indices of `s` and `p`, `(i, j)`. The value is the result of matching at `(i, j)` - boolean.
+Only when the j-th pattern is `"*"`, the index `j` shifts more than 1, while the index `i` may shift one. Other cases increment two indices by one.
 
 Recursively checking the characters and the previous state,
 the result is found at the key `(0, 0)`.
@@ -105,5 +104,5 @@ end
 ```
 
 #### Complexity
-- Time: O(2^m) -- m is a length of pattern 
-- Space: O(n*m) -- n is a length of string
+- Time: `O(2^m)` -- m is a length of pattern
+- Space: `O(mn)` -- n is a length of string
