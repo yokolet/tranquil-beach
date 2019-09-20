@@ -69,6 +69,7 @@
 * Trees and Graphs
     * [Alien Dictionary](trees_and_graphs/alien.md)
     * [Balanced Binary Tree](trees_and_graphs/balanced_binary_tree.md)
+    * [Binary Tree Coloring Game](trees_and_graphs/binary_tree_coloring.md)
     * [Binary Tree Level Order Traversal](trees_and_graphs/level_order_traversal.md)
     * [Binary Tree Maximum Path Sum](trees_and_graphs/max_path_sum.md)
     * [Binary Tree Paths](trees_and_graphs/tree_path.md)
