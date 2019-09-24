@@ -174,6 +174,7 @@
     * [Find Median from Data Stream](design/median_finder.md)
     * [First Bad Version](design/bad_version.md)
     * [Insert, Remove, getRandom by O(1)](design/randomized_set.md)
+    * [Logger Rate Limiter](design/logger.md)
     * [LRU Cache](design/lru_cache.md)
     * [Min Stack](design/min_stack.md)
     * [Random Pick with Weight](design/random_pick.md)
