@@ -160,6 +160,7 @@
     * [Excel Sheet Column Number](other/column_number.md)
     * [Exclusive Time of Functions](other/exclusive_time.md)
     * [Fraction to Recurring Decimal](other/fraction.md)
+    * [Happy Number](other/happy_number.md)
     * [Integer to English Words](other/i_to_e.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
     * [Perfect Number](other/perfect_number.md)
