@@ -185,6 +185,7 @@
     * [Read N Characters Given Read4](design/once_by_read4.md)
     * [Read N Characters Given Read4 API - Call multiple times](design/read4.md)
     * [Serialize and Deserialize Binary Tree](design/serialize_deserialize.md)
+    * [Time Based Key-Value Store](design/time_map.md)
 
 ## SQL
 * [Big Countries](sql/big_countries.md)
