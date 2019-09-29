@@ -174,6 +174,7 @@
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [Binary Search Tree Iterator](design/bst_iterator.md)
     * [Complete Binary Tree Inserter](design/cbt_inserter.md)
+    * [Design Twitter](design/twitter.md)
     * [Find Median from Data Stream](design/median_finder.md)
     * [First Bad Version](design/bad_version.md)
     * [Insert, Remove, getRandom by O(1)](design/randomized_set.md)
