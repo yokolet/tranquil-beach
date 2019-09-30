@@ -18,6 +18,7 @@
     * [Intersection of Two Arrays](arrays_and_strings/intersection.md)
     * [Intersection of Two Arrays with Duplicates](arrays_and_strings/two_arrays.md)
     * [Jewels in Stones](arrays_and_strings/jewels_in_stones.md)
+    * [Jump Games](arrays_and_strings/jump_game.md)
     * [Largest Rectangle in Histogram](arrays_and_strings/histogram.md)
     * [License Key Formatting](arrays_and_strings/license_key.md)
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
