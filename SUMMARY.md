@@ -28,6 +28,7 @@
     * [Minimum Area Rectangle](arrays_and_strings/min_rectangle.md)
     * [Minimum Domino Rotations For Equal Row](arrays_and_strings/domino_rotations.md)
     * [Minimum Index Sum of Two Lists](arrays_and_strings/min_index_sum.md)
+    * [Minimum Step Jump Game](arrays_and_strings/min_jump_game.md)
     * [Minimum Size Subarray Sum](arrays_and_strings/min_subarray_sum.md)
     * [Minimum Window Substring](arrays_and_strings/min_window.md)
     * [Monotonic Array](arrays_and_strings/monotonic.md)
