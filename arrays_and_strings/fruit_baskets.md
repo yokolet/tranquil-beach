@@ -49,7 +49,9 @@ Two pointers will be used to solve this problem. The left pointer keeps the left
 The right pointer always goes right one by one.
 To save the last occurence of each fruit type, a dictionary, `memo` is used. When the size of `memo` exceeds two, the solution finds the minimum index in the `memo` and delete the fruit type. This way, the deleted fruit type won't be recounted. Lastly, compare the `max_length` so far and `i-left+1`.
 
-Similar problem: [Longest Substring With At Most K Distinct Characters](longest_substring_k_distinct.md)
+Similar problems:
+- [Longest Substring With At Most 2 Distinct Characters](longest_substring_2_distinct.md)
+- [Longest Substring With At Most K Distinct Characters](longest_substring_k_distinct.md)
 
 #### Solution
 
