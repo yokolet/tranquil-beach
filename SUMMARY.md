@@ -22,6 +22,7 @@
     * [Largest Rectangle in Histogram](arrays_and_strings/histogram.md)
     * [License Key Formatting](arrays_and_strings/license_key.md)
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
+    * [Longest Substring With At Most 2 Distinct Characters](arrays_and_strings/longest_substring_2_distinct.md)
     * [Longest Substring With At Most K Distinct Characters](arrays_and_strings/longest_substring_k_distinct.md)
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
     * [Maximum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
