@@ -10,6 +10,7 @@
     * [Add Binary](arrays_and_strings/add_binary.md)
     * [Container with Most Water](arrays_and_strings/container_water.md)
     * [Count and Say](arrays_and_strings/compression.md)
+    * [Expressive Words](arrays_and_strings/expressive_words.md)
     * [Find All Anagrams in a String](arrays_and_strings/all_anagrams.md))
     * [Find the Closest Palindrome](arrays_and_strings/closest_palindrome.md)
     * [Fruit Into Baskets](arrays_and_strings/fruit_baskets.md)
