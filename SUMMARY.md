@@ -98,6 +98,7 @@
     * [Flower Planting](trees_and_graphs/flower_planting.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
     * [Island Perimeter](trees_and_graphs/perimeter.md)
+    * [Longest Increasing Path in a Matrix](trees_and_graphs/longest_path.md)
     * [Lowest Common Ancestor of a Binary Tree](trees_and_graphs/lca.md)
     * [The Maze](trees_and_graphs/maze.md)
     * [Most Stones Removed with Same Row or Column](trees_and_graphs/stone_removing.md)
