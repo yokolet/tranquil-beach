@@ -9,6 +9,7 @@
     * [3 Sum](arrays_and_strings/3-sum.md)
     * [Add Binary](arrays_and_strings/add_binary.md)
     * [Backspace String Compare](arrays_and_strings/backspace.md)
+    * [Compare Strings by Frequency of the Smallest Character](arrays_and_strings/smallest_character.md)
     * [Container with Most Water](arrays_and_strings/container_water.md)
     * [Count and Say](arrays_and_strings/compression.md)
     * [Expressive Words](arrays_and_strings/expressive_words.md)
