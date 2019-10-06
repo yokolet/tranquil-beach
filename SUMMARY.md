@@ -112,6 +112,7 @@
     * [Smallest Subtree with All the Deepest Nodes](trees_and_graphs/deepest_smallest_subtree.md)
     * [Validate Binary Search Tree](trees_and_graphs/valid_bst.md)
 * Backtracking
+    * [Letter Case Permutation](backtracking/letter_permutation.md)
     * [Letter Combinations of a Phone Number](backtracking/letter_combinations.md)
     * [Combination Sum](backtracking/combination_sum.md)
     * [Expression Add Operators](backtracking/operators.md)
