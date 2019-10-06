@@ -137,6 +137,7 @@
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Largest Number](sorting_searching/largest_number.md)
     * [Median of Two Sorted Arrays](sorting_searching/sorted_arrays_median.md)
+    * [Meeting Rooms](sorting_searching/meeting_rooms.md)
     * [Merge Intervals](sorting_searching/merge_intervals.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
@@ -184,6 +185,7 @@
     * [Sqrt(x)](other/sqrt_approx.md)
     * [Strobogrammatic Number](other/strobogrammatic.md)
     * [Unique Binary Search Trees](other/catalan_number.md)
+    * [Valid Square](other/valid_square.md)
 * Design
     * [Add and Search Word - Data structure design](design/word_dictionary.md)
     * [Binary Search Tree Iterator](design/bst_iterator.md)
