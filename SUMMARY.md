@@ -155,6 +155,7 @@
     * [Continuous Subarray Sum n*k](dp/subarray_sum_nk.md)
     * [Decode Ways](dp/decode_digits.md)
     * [Edit Distance](dp/edit_distance.md)
+    * [Maximum Product Subarray](dp/max_product.md)
     * [Maximum Subarray](dp/max_subarray.md)
     * [Maximum Sum of 3 Non-Overlapping Subarrays](dp/max_sum_3.md)
     * [Minimum Coin Change](dp/min_coin_change.md)
