@@ -25,6 +25,7 @@
     * [Jump Games](arrays_and_strings/jump_game.md)
     * [Largest Rectangle in Histogram](arrays_and_strings/histogram.md)
     * [License Key Formatting](arrays_and_strings/license_key.md)
+    * [Longest Common Prefix](arrays_and_strings/longest_prefix.md)
     * [Longest Continuous Increasing Subsequence](arrays_and_strings/lcis.md)
     * [Longest Substring With At Most 2 Distinct Characters](arrays_and_strings/longest_substring_2_distinct.md)
     * [Longest Substring With At Most K Distinct Characters](arrays_and_strings/longest_substring_k_distinct.md)
