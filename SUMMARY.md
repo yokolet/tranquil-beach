@@ -167,6 +167,7 @@
     * [Longest Palindromic Substring](dp/lp_substring.md)
     * [Odd Even Jump](dp/odd_even_jump.md)
     * [Regular Expression Matching](dp/regex_match.md)
+    * [Sentence Screen Fitting](dp/sentence.md)
     * [Unique Paths](dp/unique_paths.md)
     * [Unique Paths with Obstacles](dp/unique_paths_obstacles.md)
 * Other
