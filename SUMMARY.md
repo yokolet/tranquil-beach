@@ -181,6 +181,7 @@
     * [Happy Number](other/happy_number.md)
     * [Integer to English Words](other/i_to_e.md)
     * [Palindrome Pairs](other/palindrome_pairs.md)
+    * [Pascal's Triangle](other/pascals_triangle.md)
     * [Perfect Number](other/perfect_number.md)
     * [Reverse Integer](other/reverse_integer.md)
     * [Roman to Integer](other/roman_to_integer.md)
