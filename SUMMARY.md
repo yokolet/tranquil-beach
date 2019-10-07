@@ -170,6 +170,7 @@
     * [Sentence Screen Fitting](dp/sentence.md)
     * [Unique Paths](dp/unique_paths.md)
     * [Unique Paths with Obstacles](dp/unique_paths_obstacles.md)
+    * [Word Break](dp/word_break.md)
 * Other
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
