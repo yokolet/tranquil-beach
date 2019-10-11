@@ -53,6 +53,7 @@
     * [Reverse Substrings Between Each Pair of Parentheses](arrays_and_strings/reverse_str_in_paren.md)
     * [Reverse Words in a String](arrays_and_strings/reverse_words.md)
     * [Rotate Image](arrays_and_strings/rotate_image.md)
+    * [Spiral Matrix](arrays_and_strings/spiral_matrix.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
     * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Top K Frequent Elements](arrays_and_strings/top_k.md)
