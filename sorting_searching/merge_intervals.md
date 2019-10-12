@@ -16,30 +16,22 @@ Output: `[[1,5]]`
 
 #### How to Solve
 
-Sort intervals by start time. Compare one by one. If previous end time is less than current start time, add current. If previous end time is greater than or equal to current start time, update previous end time by greater value of previous and current end times.
+Sort intervals by start time. Compare one by one. If previous end time is less than current start time, add current. If previous end time is greater than or equal to current start time, update previous end time by the current end time.
 
 #### Solution
 - Python
 
 ```python
-class Interval:
-    def __init__(self, s=0, e=0):
-        self.start = s
-        self.end = e
-
 class MergeIntervals:
-    def merge(self, intervals):
-        """
-        :type intervals: List[Interval]
-        :rtype: List[Interval]
-        """
-        intervals.sort(key=lambda x: x.start)
-        result = []
-        for i in intervals:
-            if not result or result[-1].end < i.start:
-                result.append(i)
-            else:
-                result[-1].end = max(result[-1].end, i.end)
+    def merge(self, intervals: 'List[List[int]]') -> 'List[List[int]]':
+        if len(intervals) < 2: return intervals
+        intervals.sort(key=lambda x: x[0])
+        result = [intervals[0]]
+        for value in intervals[1:]:
+            if result[-1][1] < value[0]:
+                result.append(value)
+            elif result[-1][1] < value[1]:
+                result[-1][1] = value[1]
         return result
 ```
 
@@ -71,5 +63,5 @@ end
 ```
 
 #### Complexity
-- Time: `O(nlog(n))`
+- Time: `O(nlog(n))` -- n is a length of the intervals
 - Space: `O(1)`
