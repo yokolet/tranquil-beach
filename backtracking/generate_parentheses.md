@@ -22,9 +22,9 @@ Output:
 
 #### How to Solve
 
-Both BSF and DFS work to generate parenthses. When going to the next level, check how many opening and closing parenethess are left.
+Both BSF and DFS work to generate parentheses. When going to the next level, check how many opening and closing parenethess are left.
 
-The unussed closing parenthesis should be always more than the unused opening parentheses. If the conditions meet, add a parenthesis and decrease the number of opening or closing parenthsis. When none of opening and closeing parenthesis is left, add the generated string to the result list.
+Unused closing parentheses should be always more than the unused opening parentheses. If the conditions meet, add a parenthesis and decrease the number of opening or closing parentheses. When none of opening and closeing parenthesis is left, add the generated string to the result list.
 
 #### Solution
 
@@ -47,5 +47,5 @@ class GenerateParentheses:
 
 #### Complexity
 
-- Time: O(n)
-- Space: O(n)
+- Time: `O(n)` -- n is a lengths of parentheses
+- Space: `O(n)`
