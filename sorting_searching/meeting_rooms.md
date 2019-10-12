@@ -16,7 +16,7 @@ Output: `True`
 
 #### How to Solve
 
-Sorting the input array by the start time is a key to solve the problem. If the previous end time is greater than next start time, two meetings are overlapped. In this case, return `false`. When the loop reaches to the end, return `True`.
+Sorting the input array by the start time is a key to solve the problem. If the previous end time is greater than next start time, two meetings are overlapped. In such a case, return `False`. When the loop reaches to the end, return `True`.
 
 #### Solution
 - Python
