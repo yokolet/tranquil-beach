@@ -9,51 +9,55 @@ The matching should cover the entire input string (not partial).
 - `"*"` Matches zero or more of the preceding element.
 
 `s` could be empty and contains only lowercase letters a-z.
-`p` could be empty and contains only lowercase letters a-z, and characters like `"."` or `"*"`.
+`p` could be empty and contains only lowercase letters a-z and characters like `"."` or `"*"`.
 
 #### Example 1
 Input: `s = "aa"`, `p = "a"`
 
-Output: False
+Output: `False`
 
 Explanation: `p = "a"` matches only one `"a"`.
 
 #### Example 2
 Input: `s = "aa"`,  `p = "a*"`
 
-Output: True
+Output: `True`
 
 Explanation: `p = "a*"` matches any number of `"a"`s.
 
 #### Example 3
 Input: `s = "ab"`, `p = ".*"`
 
-Output: True
+Output: `True`
 
 Explanation: `p = ".*"` matches any number of any characters.
 
 #### Example 4
 Input: `s = "aab"`, `p = "c*a*b"`
 
-Output: True
+Output: `True`
 
 Explanation: `p = "c*a*b"` matches any number (including zero) of `"c"`s, followed by any number of `"a"`s, then followed by one `"b"`.
 
 #### Example 5
 Input: `s = "mississippi"`, `p = "mis*is*p*."`
 
-Output: False
+Output: `False`
 
 Explanation: `p = "mis*is*p*."` doesn't match the third `"i"`, so the pattern is for `"mississppi"`. 
 
 #### How to Solve
 
-The solution here is a dynamic programming approach by recursion.
-It saves the previous state in a dictionary whose key is indices of `s` and `p`, `(i, j)`. The value is the result of matching at `(i, j)` - boolean.
-Only when the j-th pattern is `"*"`, the index `j` shifts more than 1, while the index `i` may shift one. Other cases increment two indices by one.
+The solution here takes a dynamic programming approach with recursion.
+The state so far is saved in a dictionary whose key is indices of `s` and `p`, `(i, j)`. The value is the result of matching at `(i, j)` - boolean value.
 
-Recursively checking the characters and the previous state,
-the result is found at the key `(0, 0)`.
+The base case of the recursion is that the index `j` reaches to the length of `p`. Under this condition, the answer is whether the index `i` also reaches to the length of `s` or not.
+Since multiple matching patterns exist, the recursion goes looking at all those.
+The easy case is: `p[j]` is one of `'.'` or `s[i]`. The next matching check pair is `s[i+1]` and `p[j+1]`.
+The difficult case is `*`. The `*` matches the character before it, so check whether `*` exists at the index `j+1`. If it does, next matching check pairs are: `s[i]` and `p[j+2]` (`*` matches zero character), `s[i+1]` and `p[j]` (`s[i]` and `s[i+1]` match to `p[j]`).
+Being said, three branching patterns exist in each recursion.
+
+When the result comes back from the deeper recursion stack, set it to the dictionary. After repeating this, in the end, the final result comes back to the top layer.
 
 #### Solution
 - Python
