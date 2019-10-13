@@ -18,11 +18,9 @@ Output: `"bb"`
 
 #### How to Solve
 
-This problem is normally categorized to dynamic programming (DP).
-The solution by DP is one. However, DP approach uses a 2 dimensional array, and its performance is O(n^2).
+This problem is normally categorized to the dynamic programming (DP). However, DP approach uses a 2 dimensional array, and its performance is O(n^2).
 
-Instead of DP, this solution uses a sliding window approach.
-A length of palindromic string is odd (such that "aba") or even (such that "bb"). For both length, check the substring is palindrome or not. If it is a palindrome, make window size bigger. Then, go to next index.
+Instead of DP, this solution uses a sliding window approach. The window size is extended if the current window is a palindrome. The max window size, `max_len`, starts from 1. When extending the window, two patterns exist. A length of palindromic string is eithrt odd (such that "aba") or even (such that "bb"). To cover these two, substrings `s[i-max_len-1:i+1]` and `s[i-max_len:i+1]` are checked if those are palindrome or not. If it is a palindrome, make the window size bigger by adding 2 or 1 to `max_len`. Then, go to next index.
 
 
 #### Solution
