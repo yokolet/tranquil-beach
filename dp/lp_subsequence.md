@@ -2,32 +2,31 @@
 
 #### Description
 
-Given a string s, find the longest palindromic subsequence's length in s.
+Given a string `s`, find the length of the longest palindromic subsequence.
 
-The maximum length of s is 1000.
+The maximum length of `s` is 1000.
 
 #### Example 1
 Input: `"bbbab"`
 
-Output: 4
+Output: `4`
 
 Explanation: `"bbbb"` is the longest palindromic subsequence.
 
 #### Example 2
 Input: `"cbbd"`
 
-Output: 2
+Output: `2`
 
 Explanation: `"bb"` is the longest palindromic subsequence.
 
 #### How to Solve
 
-Go over all characters one by one.
-While iterating, make substring length longer one by one.
-Save the length of palindrome to an auxiliary array as a state.
-Using the auxiliary array as previous state, update the length.
+The dynamic programming is the approach taken here.
+The solution uses two 1D auxiliary arrays rather than 2D array. It helps to reduce a space complexity. The values are lengths of palindrome at index `i`.
 
-If 2 dimensional array is used, it is easy to understand. However, it runs very slow. This solution uses 2 independent arrays to keep previous and ongoing states.
+One of the auxiliary arrays saves previous states. Another saves ongoing states. Starting from the last index, compare characters one by one. If two characters are the same, update the current length using the previous state.
+Decrement the starting index and repeat.
 
 #### Solution
 - Python
@@ -37,9 +36,9 @@ class LongestPalindromicSubsequence:
     def longestPalindromeSubseq(self, s: str) -> int:
         n = len(s)
         if s == s[::-1]: return n
-        prev = [0] * n
+        prev = [0 for _ in range(n)]
         for i in range(n-1, -1, -1):
-            cur = [0] * n
+            cur = [0 for _ in range(n)]
             cur[i] = 1
             for l in range(i+1, n):
                 if s[i] == s[l]:
@@ -76,5 +75,5 @@ end
 ```
 
 #### Complexity
-- Time: O(n^2)
-- Space: O(n)
+- Time: `O(n^2)` -- n is a length of the given string
+- Space: `O(n)`
