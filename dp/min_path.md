@@ -21,7 +21,7 @@ Explanation: minimum path sum is: 1->3->1->1->1 = 7
 
 #### How to Solve
 
-A dynamic programmin (DP) approach works well for this kind of problems. Something difference from a typical DP solution is that the problem doesn't need an auxiliary array. Directly updating the cell value doesn't conflict. While traversing cells, look at up and left cells. The current cell's value becomes minimum of those plus cell value. When all cells are traverssed, the bottom right cell has an answer.
+A dynamic programmin (DP) approach works well for this kind of problems. Something different from a typical DP solution is that the problem doesn't need an auxiliary array. Directly updating the cell value doesn't conflict. While traversing cells, look at up and left cells. The current cell's value becomes minimum of those plus cell value. When all cells are traverssed, the bottom right cell has an answer.
 
 #### Solution
 - Python
