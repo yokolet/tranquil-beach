@@ -2,7 +2,7 @@
 
 #### Description
 
-Given a binary tree, number of nodes and the node value chosen by the first player, find whether the second player wins or not.
+Given a binary tree, number of nodes `n` and the node value chosen by the first player `x`, find whether the second player wins or not.
 
 - Definition:
     - `n` is odd
