@@ -203,6 +203,7 @@
     * [Find Median from Data Stream](design/median_finder.md)
     * [First Bad Version](design/bad_version.md)
     * [Flatten 2D Vector](design/vector_2d.md)
+    * [Implement Trie (Prefix Tree)](design/trie.md)
     * [Insert, Remove, getRandom by O(1)](design/randomized_set.md)
     * [Logger Rate Limiter](design/logger.md)
     * [LRU Cache](design/lru_cache.md)
