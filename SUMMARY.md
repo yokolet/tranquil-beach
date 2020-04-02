@@ -146,6 +146,7 @@
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
     * [Search in Rotated Sorted Array](sorting_searching/rotated_sorted_array.md)
     * [Search in Rotated Sorted Array with Duplicates](sorting_searching/rotated_sorted_array_with_dup.md)
+    * [Sentence Similarity](sorting_searching/sentence_similarity.md)
     * [Shortest Way to Form String](sorting_searching/form_string.md)
     * [Smallest Range](sorting_searching/min_range.md)
     * [Snakes and Ladders](sorting_searching/snakes_ladders.md)
