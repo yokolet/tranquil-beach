@@ -100,6 +100,7 @@
     * [Count Complete Tree Nodes](trees_and_graphs/complete_tree_count.md)
     * [Course Schedule](trees_and_graphs/course_schedule.md)
     * [Course Schedule Path](trees_and_graphs/course_schedule_path.md)
+    * [Delete Nodes and Return Forests](trees_and_graphs/delete_nodes.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
     * [Flood Fill](trees_and_graphs/flood_fill.md)
