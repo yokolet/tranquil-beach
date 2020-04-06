@@ -20,6 +20,7 @@
     * [Fruit Into Baskets](arrays_and_strings/fruit_baskets.md)
     * [Game of Life](arrays_and_strings/game_of_life.md)
     * [Group Anagrams](arrays_and_strings/group_anagrams.md)
+    * [Hand of Straights](arrays_and_strings/hand_of_straights.md)
     * [Intersection of Two Arrays](arrays_and_strings/intersection.md)
     * [Intersection of Two Arrays with Duplicates](arrays_and_strings/two_arrays.md)
     * [Isomorphic Strings](arrays_and_strings/isomorphic.md)
