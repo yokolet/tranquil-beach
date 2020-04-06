@@ -10,6 +10,7 @@
     * [Add Binary](arrays_and_strings/add_binary.md)
     * [Backspace String Compare](arrays_and_strings/backspace.md)
     * [Best Time to Buy and Sell Stock](arrays_and_strings/stock.md)
+    * [Best Time to Buy and Sell Stock 2 - Multiple Times](arrays_and_strings/stock_multiple.md)
     * [Compare Strings by Frequency of the Smallest Character](arrays_and_strings/smallest_character.md)
     * [Container with Most Water](arrays_and_strings/container_water.md)
     * [Count and Say](arrays_and_strings/compression.md)
