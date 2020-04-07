@@ -155,6 +155,7 @@
     * [Shortest Way to Form String](sorting_searching/form_string.md)
     * [Smallest Range](sorting_searching/min_range.md)
     * [Snakes and Ladders](sorting_searching/snakes_ladders.md)
+    * [Split Array into Consecutive Subsequences](sorting_searching/consecutive_subsequences.md)
     * [Split Array Largest Sum](sorting_searching/split_array.md)
     * [Verifying an Alien Dictionary](sorting_searching/alien_sort.md)
 * Dynamic Programming
