@@ -173,6 +173,7 @@
     * [Maximum Sum of 3 Non-Overlapping Subarrays](dp/max_sum_3.md)
     * [Minimum Coin Change](dp/min_coin_change.md)
     * [Minimum Path Sum](dp/min_path.md)
+    * [Minimum Swaps to Make Sequences Increasing](dp/min_swaps.md)
     * [Longest Arithmetic Subsequence](dp/arithmetic_sequence.md)
     * [Longest Increasing Subsequence](dp/lis.md)
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
