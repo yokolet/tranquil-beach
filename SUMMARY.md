@@ -150,6 +150,7 @@
     * [Merge Intervals](sorting_searching/merge_intervals.md)
     * [Merge Two Sorted Arrays](sorting_searching/sorted_array.md)
     * [Minimum Meeting Rooms](sorting_searching/min_meeting_rooms.md)
+    * [Open the Lock](sorting_searching/lock_combination.md)
     * [Search in Rotated Sorted Array](sorting_searching/rotated_sorted_array.md)
     * [Search in Rotated Sorted Array with Duplicates](sorting_searching/rotated_sorted_array_with_dup.md)
     * [Sentence Similarity](sorting_searching/sentence_similarity.md)
