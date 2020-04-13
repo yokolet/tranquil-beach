@@ -28,6 +28,9 @@ Tricky part of this problem is accumulated sum is 0. When the sum is zero, all i
 
 This way, the longest subarray will be found.
 
+Similar problems:
+- [Contiguous Subarray](longest_binary_subarray.md)
+
 #### Solution
 - Python
 
