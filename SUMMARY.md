@@ -146,6 +146,7 @@
     * [K Closest Points to Origin](sorting_searching/k_closest.md)
     * [Kth Largest Element in an Array](sorting_searching/kth_largest.md)
     * [Largest Number](sorting_searching/largest_number.md)
+    * [Last Stone Weight](sorting_searching/stone_weights.md)
     * [Median of Two Sorted Arrays](sorting_searching/sorted_arrays_median.md)
     * [Meeting Rooms](sorting_searching/meeting_rooms.md)
     * [Merge Intervals](sorting_searching/merge_intervals.md)
