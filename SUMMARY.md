@@ -108,6 +108,7 @@
     * [Delete Nodes and Return Forests](trees_and_graphs/delete_nodes.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Flatten Binary Tree to Linked List](trees_and_graphs/binary_tree_to_list.md)
+    * [Flip Equivalent Binary Trees](trees_and_graphs/flipped_binary_tree.md)
     * [Flood Fill](trees_and_graphs/flood_fill.md)
     * [Flower Planting](trees_and_graphs/flower_planting.md)
     * [Is Graph Bipartite?](trees_and_graphs/bipartite.md)
