@@ -69,6 +69,7 @@
     * [Valid Palindrome](arrays_and_strings/valid_palindrome.md)
     * [Valid Palindrome by Deleting a Character](arrays_and_strings/palindrome_by_deletion.md)
     * [Valid Parentheses](arrays_and_strings/valid_parentheses.md)
+    * [Valid Parenthesis String](arrays_and_strings/valid_string.md)
     * [Validate Stack Sequences](arrays_and_strings/stack_sequences.md)
     * [Wildcard Matching](arrays_and_strings/wildcard.md)
     * [Word Ladder - Length](arrays_and_strings/ladder_length.md)
