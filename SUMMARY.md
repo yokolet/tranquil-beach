@@ -228,6 +228,7 @@
     * [Logger Rate Limiter](design/logger.md)
     * [LRU Cache](design/lru_cache.md)
     * [Min Stack](design/min_stack.md)
+    * [My Calendar](design/my_calendar.md)
     * [Random Pick with Weight](design/random_pick.md)
     * [Range Sum Query 2D - Immutable](design/num_matrix.md)
     * [Read N Characters Given Read4](design/once_by_read4.md)
