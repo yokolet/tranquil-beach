@@ -186,6 +186,7 @@
     * [Longest Increasing Subsequence](dp/lis.md)
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
     * [Longest Palindromic Substring](dp/lp_substring.md)
+    * [Longest String Chain](dp/longest_string_chain.md)
     * [Odd Even Jump](dp/odd_even_jump.md)
     * [Regular Expression Matching](dp/regex_match.md)
     * [Sentence Screen Fitting](dp/sentence.md)
