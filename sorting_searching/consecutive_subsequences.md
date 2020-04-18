@@ -34,6 +34,9 @@ A new element, `x`, can be added to an existing group when the last element of t
 
 To check two conditions, use two dictionlaries to keep elements left and the last elements. When all elements in the given array are checked, the result is `True`
 
+Similar Problem:
+- [Divide Array in Sets of K Consecutive Numbers](consecutive_k_numbers.md)
+
 #### Solution
 - Python
 
