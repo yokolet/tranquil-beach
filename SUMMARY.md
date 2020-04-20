@@ -198,6 +198,7 @@
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
     * [Basic Calculator -- Arithmetic Calculator](other/arithmetic_calculator.md)
+    * [Confusing Number](other/confusing_number.md)
     * [Divide Two Integers](other/division.md)
     * [Excel Sheet Column Title](other/column_title.md)
     * [Excel Sheet Column Number](other/column_number.md)
