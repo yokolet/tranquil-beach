@@ -60,6 +60,7 @@
     * [Rotate Image](arrays_and_strings/rotate_image.md)
     * [Sliding Window Maximum](arrays_and_strings/max_in_window.md)
     * [Spiral Matrix](arrays_and_strings/spiral_matrix.md)
+    * [String Transforms Into Another String](arrays_and_strings/string_transformation.md)
     * [Subarray Sum Equals k](arrays_and_strings/subarray_sum_k.md)
     * [Task Scheduler](arrays_and_strings/tasks.md)
     * [Top K Frequent Elements](arrays_and_strings/top_k.md)
