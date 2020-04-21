@@ -45,8 +45,9 @@ Explanation: Both `2` and `5` are invalid.
 
 Use a mapping table to convert a digit to rotated one. After converted the given number to string, create the rotated number adding next digit on the top. If invalid number is found, return `False`. Otherwise, check the number in the end whether it is the same as original or not.
 
-- Similar problem
+- Similar problems
     - [Strobogrammatic Number](strobogrammatic.md)
+    - [Confusing Number 2 -- Up to N](confusing_number_upto_n.md)
 
 #### Solution
 - Python

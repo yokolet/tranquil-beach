@@ -27,8 +27,9 @@ Use two pointers, left and right. If character on the left and right are the str
 
 To quickly identify the strobogrammatic number or not, the solution here uses a dictionary (Hash in Ruby).
 
-- Similar problem
+- Similar problems
     - [Confusing Number](confusing_number.md)
+    - [Confusing Number 2 -- Up to N](confusing_number_upto_n.md)
 
 #### Solution
 - Python

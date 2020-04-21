@@ -200,6 +200,7 @@
     * [Arranging Coins](other/arranging_coins.md)
     * [Basic Calculator -- Arithmetic Calculator](other/arithmetic_calculator.md)
     * [Confusing Number](other/confusing_number.md)
+    * [Confusing Number 2 -- Up to N](other/confusing_number_upto_n.md)
     * [Divide Two Integers](other/division.md)
     * [Excel Sheet Column Title](other/column_title.md)
     * [Excel Sheet Column Number](other/column_number.md)
