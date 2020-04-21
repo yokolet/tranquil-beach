@@ -103,6 +103,7 @@
     * [Complete Binary Tree](trees_and_graphs/complete_binary_tree.md)
     * [Construct Binary Tree from Preorder and Inorder Traversal](trees_and_graphs/preorder_inorder.md)
     * [Construct Binary Tree from String](trees_and_graphs/str2tree.md)
+    * [Construct Binary Search Tree from Preorder Traversal](trees_and_graphs/bst_by_preorder.md)
     * [Convert Binary Search Tree to Sorted Doubly Linked List](trees_and_graphs/bst_to_list.md)
     * [Count Complete Tree Nodes](trees_and_graphs/complete_tree_count.md)
     * [Course Schedule](trees_and_graphs/course_schedule.md)
