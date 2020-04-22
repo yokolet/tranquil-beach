@@ -26,7 +26,9 @@ If exceeds, count up the groups (number of groups) and set the sum to the value 
 In the end, if the number of groups exceeds the given value `m`, the middle value is considered small. So, set the low as middle value + 1. If the days are less than or equal to the `m`, the middle value is considered big.
 So, set the high as middle value. 
 
-Similar problem: [Capacity To Ship Packages Within D Days](package_shipping.md)
+- Similar problems
+    - [Capacity To Ship Packages Within D Days](package_shipping.md)
+    - [Divide Chocolate](divide_chocolate.md)
 
 #### Solution
 

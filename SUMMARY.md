@@ -148,6 +148,7 @@
     * [Campus Bikes](sorting_searching/campus_bikes.md)
     * [Capacity to Ship Packages Within D Days](sorting_searching/package_shipping.md)
     * [Divide Array in Sets of K Consecutive Numbers](sorting_searching/consecutive_k_numbers.md)
+    * [Divide Chocolate](sorting_searching/divide_chocolate.md)
     * [Find Peak Element](sorting_searching/peak_element.md)
     * [Friends Of Appropriate Ages](sorting_searching/friend_request.md)
     * [Interval List Intersections](sorting_searching/interval_intersection.md)

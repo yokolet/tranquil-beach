@@ -60,7 +60,9 @@ If exceeds, count up the days and set the sum to the weight of that point.
 In the end, if days exceeds the given value `D`, the middle value is considered small. So, set the low as middle value + 1. If the days are less than or equal to the `D`, the middle value is considered big.
 So, set the high as middle value. 
 
-Similar problem: [Split Array Largest Sum](split_array.md)
+- Similar problems
+    - [Split Array Largest Sum](split_array.md)
+    - [Divide Chocolate](divide_chocolate.md)
 
 #### Solution
 
