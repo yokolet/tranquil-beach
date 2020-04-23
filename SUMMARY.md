@@ -202,6 +202,7 @@
     * [Add Strings](other/addition_by_string.md)
     * [Arranging Coins](other/arranging_coins.md)
     * [Basic Calculator -- Arithmetic Calculator](other/arithmetic_calculator.md)
+    * [Bitwise AND of Numbers Range](other/bitwise_and.md)
     * [Confusing Number](other/confusing_number.md)
     * [Confusing Number 2 -- Up to N](other/confusing_number_upto_n.md)
     * [Divide Two Integers](other/division.md)
