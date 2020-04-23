@@ -44,6 +44,9 @@ The algorithm uses the trait of the binary number when 1 is subtracted by the or
 
 Starting from a bigger number `n`, take bitwise AND with `n-1` while the number is bigger than the smaller value `m`. In the end, take bitwise AND with the `m`. That the answer.
 
+- Similar problem:
+    - [Hamming Distance](hamming_distance.md)
+
 #### Solution
 - Python
 
