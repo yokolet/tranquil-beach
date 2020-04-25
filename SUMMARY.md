@@ -36,6 +36,7 @@
     * [Longest Substring With At Most 2 Distinct Characters](arrays_and_strings/longest_substring_2_distinct.md)
     * [Longest Substring With At Most K Distinct Characters](arrays_and_strings/longest_substring_k_distinct.md)
     * [Longest Substring Without Repeating Characters](arrays_and_strings/longest_substring.md)
+    * [Max Sum of Rectangle No Larger Than K](arrays_and_strings/rectangle_sum.md)
     * [Maximum Size Subarray Sum Equals k](arrays_and_strings/max_subarray_sum_k.md)
     * [Minimum Area Rectangle](arrays_and_strings/min_rectangle.md)
     * [Minimum Domino Rotations For Equal Row](arrays_and_strings/domino_rotations.md)
