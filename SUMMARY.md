@@ -111,6 +111,7 @@
     * [Count Complete Tree Nodes](trees_and_graphs/complete_tree_count.md)
     * [Course Schedule](trees_and_graphs/course_schedule.md)
     * [Course Schedule Path](trees_and_graphs/course_schedule_path.md)
+    * [Decode String](trees_and_graphs/decode_string.md)
     * [Delete Nodes and Return Forests](trees_and_graphs/delete_nodes.md)
     * [Diameter of Binary Tree](trees_and_graphs/binary_tree_diameter.md)
     * [Evaluate Division](trees_and_graphs/evaluate_division.md)
