@@ -191,6 +191,7 @@
     * [Minimum Path Sum](dp/min_path.md)
     * [Minimum Swaps to Make Sequences Increasing](dp/min_swaps.md)
     * [Longest Arithmetic Subsequence](dp/arithmetic_sequence.md)
+    * [Longest Common Subsequence](dp/lcs.md)
     * [Longest Increasing Subsequence](dp/lis.md)
     * [Longest Palindromic Subsequence](dp/lp_subsequence.md)
     * [Longest Palindromic Substring](dp/lp_substring.md)
