@@ -30,6 +30,7 @@ To quickly identify the strobogrammatic number or not, the solution here uses a 
 - Similar problems
     - [Confusing Number](confusing_number.md)
     - [Confusing Number 2 -- Up to N](confusing_number_upto_n.md)
+    - [Strobogrammatic Number 2 -- Length N](strobogrammatic_len_n.md)
 
 #### Solution
 - Python

@@ -35,6 +35,7 @@ Starting from 1,6,8,9, go deeper while adding digits, 0,1,6,8,9 one by one. If t
 
 - Similar problems
     - [Strobogrammatic Number](strobogrammatic.md)
+    - [Strobogrammatic Number 2 -- Length N](strobogrammatic_len_n.md)
     - [Confusing Number](confusing_number.md)
 
 #### Solution

@@ -225,6 +225,7 @@
     * [Roman to Integer](other/roman_to_integer.md)
     * [Sqrt(x)](other/sqrt_approx.md)
     * [Strobogrammatic Number](other/strobogrammatic.md)
+    * [Strobogrammatic Number 2 -- Length N](other/strobogrammatic_len_n.md)
     * [Unique Binary Search Trees](other/catalan_number.md)
     * [Valid Square](other/valid_square.md)
 * Design
