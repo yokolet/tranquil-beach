@@ -31,6 +31,9 @@ If the two strings are the same, the answer is True.
 If `str2` has 26 types of characters (a-z), there is no character to save intermediate conversion state. In this case, return False.
 Otherwise go over each character in str1 and str1. When unseen character in str1 is found, make a pair of the characters of the same index of str1 and str2. When already seen character appears, check the pair is still the same. If not, return False. When it reaches to the last character and still the pair is the same, return True.
 
+- Similar problem
+    - [Isomorphic Strings](isomorphic.md)
+
 #### Solution
 - Python
 

@@ -30,6 +30,9 @@ If the character in `s` is in the dictionary and the replacement is not the `t` 
 
 Alternatively, the succinct solution `return len(set(zip(s, t))) == len(set(s)) == len(set(t))` exists.
 
+- Similar problem
+    - [String Transforms Into Another String](string_transformation.md)
+
 #### Solution
 - Python
 
