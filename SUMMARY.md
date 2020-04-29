@@ -145,6 +145,7 @@
     * [Remove Invalid Parentheses](backtracking/invalid_parentheses.md)
     * [Subsets](backtracking/subsets.md)
     * [Word Search](backtracking/word_search.md)
+    * [Word Squares](backtracking/word_squares.md)
     * [Unique Paths with Obstacles to Cover All Squares](backtracking/unique_paths_obstacles_ham.md)
     * [Unique Permutations with Duplicates](backtracking/permutations_with_dup.md)
 * Sorting and Searching
