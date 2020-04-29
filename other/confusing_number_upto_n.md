@@ -27,7 +27,7 @@ Explanation: confusing numbers are: `6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,
 
 #### How to Solve
 
-The basic idea is not so difficult. Create possible combinations of confusing number under given `N`, check if those are not symmetric if rotated. However, this problem easily gets a time limie exceeded error.
+The basic idea is not so difficult. Create possible combinations of confusing number under given `N`, check if those are not symmetric if rotated. However, this problem easily gets a Time Limit Exceeded error.
 How to make it run faster is the key.
 
 The solution here took depth first search (DFS) approach.

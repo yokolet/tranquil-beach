@@ -31,7 +31,7 @@ Output: True
 
 #### How to Solve
 
-A bruto force solution gets an time limit exceeded error. How to make it run faster is a key to solve this problem.
+A bruto force solution gets a Time Limit Exceeded error. How to make it run faster is a key to solve this problem.
 
 The solution here counts left parenthesis at each index of the input string. Since the `'*'` (star) can be a left parenthesis, maximum left parenthesis count is maintained at each index.
 

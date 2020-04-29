@@ -25,7 +25,7 @@ sa.get(0, 0) # -> 5
 
 #### How to Solve
 
-The implementation itself is easy to think of. However, this problem asks how fast the implementation runs. If the implementation creates an array of given length and makes deep copy of the array at each snap method call, it will get time limit exceeded error. To make it run faster, not to make whole lot of array(s) is the key. The solution here uses dictionaries to save values for both current and snapshot. If the key doesn't exist, the value is 0.
+The implementation itself is easy to think of. However, this problem asks how fast the implementation runs. If the implementation creates an array of given length and makes deep copy of the array at each snap method call, it will get a Time Limit Exceeded error. To make it run faster, not to make whole lot of array(s) is the key. The solution here uses dictionaries to save values for both current and snapshot. If the key doesn't exist, the value is 0.
 
 #### Solution
 - Python
